@@ -8,4 +8,4 @@ Using the app students can:
 * take terminology quiz.
 
 
-Developement of this app is run by volunteers.
+Development of this app is run by volunteers.
