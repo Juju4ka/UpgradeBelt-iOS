@@ -9,3 +9,5 @@ Using the app students can:
 
 
 Development of this app is run by volunteers.
+
+Check out more information about Taekwon-Do at http://www.rita-itf.org
