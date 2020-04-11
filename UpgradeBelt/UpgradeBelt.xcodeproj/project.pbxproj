@@ -47,6 +47,9 @@
 		A36BE894244212F50025F302 /* green-tag.png in Resources */ = {isa = PBXBuildFile; fileRef = A36BE876244212F50025F302 /* green-tag.png */; };
 		A36BE895244212F50025F302 /* black-tag.png in Resources */ = {isa = PBXBuildFile; fileRef = A36BE877244212F50025F302 /* black-tag.png */; };
 		A36BE896244212F50025F302 /* green-belt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A36BE878244212F50025F302 /* green-belt@2x.png */; };
+		A38F7AA724423D8600CFDC1C /* belt-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A38F7AA424423D8600CFDC1C /* belt-icon.png */; };
+		A38F7AA824423D8600CFDC1C /* belt-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A38F7AA524423D8600CFDC1C /* belt-icon@2x.png */; };
+		A38F7AA924423D8600CFDC1C /* belt-icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A38F7AA624423D8600CFDC1C /* belt-icon@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,6 +116,9 @@
 		A36BE876244212F50025F302 /* green-tag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "green-tag.png"; sourceTree = "<group>"; };
 		A36BE877244212F50025F302 /* black-tag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "black-tag.png"; sourceTree = "<group>"; };
 		A36BE878244212F50025F302 /* green-belt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "green-belt@2x.png"; sourceTree = "<group>"; };
+		A38F7AA424423D8600CFDC1C /* belt-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "belt-icon.png"; sourceTree = "<group>"; };
+		A38F7AA524423D8600CFDC1C /* belt-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "belt-icon@2x.png"; sourceTree = "<group>"; };
+		A38F7AA624423D8600CFDC1C /* belt-icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "belt-icon@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,6 +214,9 @@
 		A36BE85C244212F50025F302 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				A38F7AA424423D8600CFDC1C /* belt-icon.png */,
+				A38F7AA524423D8600CFDC1C /* belt-icon@2x.png */,
+				A38F7AA624423D8600CFDC1C /* belt-icon@3x.png */,
 				A36BE85D244212F50025F302 /* black-tag@2x.png */,
 				A36BE85E244212F50025F302 /* white-belt@2x.png */,
 				A36BE85F244212F50025F302 /* black-belt-4@2x.png */,
@@ -349,6 +358,7 @@
 				A36BE879244212F50025F302 /* grading.json in Resources */,
 				A36BE882244212F50025F302 /* green-belt.png in Resources */,
 				A36BE896244212F50025F302 /* green-belt@2x.png in Resources */,
+				A38F7AA724423D8600CFDC1C /* belt-icon.png in Resources */,
 				A36BE889244212F50025F302 /* yellow-belt.png in Resources */,
 				A36BE892244212F50025F302 /* black-belt-1@2x.png in Resources */,
 				A36BE895244212F50025F302 /* black-tag.png in Resources */,
@@ -369,10 +379,12 @@
 				A36BE833244212A50025F302 /* Assets.xcassets in Resources */,
 				A36BE893244212F50025F302 /* white-belt.png in Resources */,
 				A36BE883244212F50025F302 /* green-tag@2x.png in Resources */,
+				A38F7AA824423D8600CFDC1C /* belt-icon@2x.png in Resources */,
 				A36BE886244212F50025F302 /* black-belt-4.png in Resources */,
 				A36BE888244212F50025F302 /* yellow-belt@2x.png in Resources */,
 				A36BE88A244212F50025F302 /* yellow-tag.png in Resources */,
 				A36BE87C244212F50025F302 /* white-belt@2x.png in Resources */,
+				A38F7AA924423D8600CFDC1C /* belt-icon@3x.png in Resources */,
 				A36BE88D244212F50025F302 /* blue-belt.png in Resources */,
 				A36BE887244212F50025F302 /* red-belt@2x.png in Resources */,
 				A36BE885244212F50025F302 /* red-belt.png in Resources */,
