@@ -67,7 +67,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A36BE821244212A40025F302 /* UpgradeBelt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UpgradeBelt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A36BE821244212A40025F302 /* Upgrade Belt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Upgrade Belt.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A36BE824244212A40025F302 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A36BE826244212A40025F302 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A36BE828244212A40025F302 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -153,7 +153,7 @@
 		A36BE822244212A40025F302 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A36BE821244212A40025F302 /* UpgradeBelt.app */,
+				A36BE821244212A40025F302 /* Upgrade Belt.app */,
 				A36BE83C244212A60025F302 /* UpgradeBeltTests.xctest */,
 				A36BE847244212A60025F302 /* UpgradeBeltUITests.xctest */,
 			);
@@ -257,7 +257,7 @@
 			);
 			name = UpgradeBelt;
 			productName = UpgradeBelt;
-			productReference = A36BE821244212A40025F302 /* UpgradeBelt.app */;
+			productReference = A36BE821244212A40025F302 /* Upgrade Belt.app */;
 			productType = "com.apple.product-type.application";
 		};
 		A36BE83B244212A60025F302 /* UpgradeBeltTests */ = {
@@ -585,9 +585,9 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = JB.UpgradeBelt;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Upgrade Belt";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -602,9 +602,9 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = JB.UpgradeBelt;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Upgrade Belt";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
