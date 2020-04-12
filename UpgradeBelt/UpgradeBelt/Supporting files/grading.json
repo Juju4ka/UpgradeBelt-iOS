@@ -243,7 +243,7 @@
                    "requirements": "Dan-Gun Tul 3-Step Sparring (Not Pre-arranged) - SAMBO MATSOGI",
                    "patterns": [
                                 {
-                                "id": 0,
+                                "id": "0",
                                 "name": "Dan-Gun",
                                 "movements": 21,
                                 "meaning": "Dan-Gun is named after the Holy Dan-Gun, the legendary founder of Korea in the year 2333 B.C."
@@ -378,7 +378,7 @@
                    "requirements": "Won-Hyo Tul  \n\t\t\t\t2-Step Sparring Ibo Matsogi \n\t\t\t\t1-Step Ilbo Matsogi \n\t\t\t\tPower: Side Piercing Kick Yopcha Jirugi  \n\t\t\t\tReverse Turning Kick Bandae Dollyo Chagi  \n\t\t\t\tHand Technique Son Gilsool",
                    "patterns": [
                                 {
-                                "id": 0,
+                                "id": "0",
                                 "name": "Won-Hyo Tul",
                                 "movements": 28,
                                 "meaning": "Won-Hyo is named after the noted monk who introduced Buddhism to the Silla Dynasty in the year 686 A.D."
