@@ -24,7 +24,7 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
     @IBOutlet var tableView: UITableView!
 
     override func viewDidLoad() {
-        super.viewDidLoad()
+        super.viewDidLoad()        
         
         // add thumbnails
         self.thumbnails.append(self.colorBeltThumbnails);
@@ -94,7 +94,8 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
 
     // method to run when table view cell is tapped
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        print("You tapped cell number \(indexPath.row).")
+        performSegue(withIdentifier: "SegueFromTableBelts", sender: self)
+        //print("You tapped cell number \(indexPath.row).")
     }
 }
 

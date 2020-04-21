@@ -7,7 +7,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Belts-->
+        <!--First View Controller-->
         <scene sceneID="hNz-n2-bh7">
             <objects>
                 <viewController id="9pv-A4-QxB" customClass="FirstViewController" customModule="Upgrade_Belt" customModuleProvider="target" sceneMemberID="viewController">
@@ -28,14 +28,47 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="PQr-Ze-W5v"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Belts" image="belt-icon.png" id="acW-dT-cKf"/>
+                    <navigationItem key="navigationItem" id="idk-dg-U58"/>
                     <connections>
                         <outlet property="tableView" destination="p4R-39-WF5" id="pCG-dh-NVn"/>
+                        <segue destination="BrV-u8-TVL" kind="presentation" identifier="SegueFromTableBelts" modalPresentationStyle="fullScreen" id="I8c-c8-JTc"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="W5J-7L-Pyd" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="748" y="-320.68965517241384"/>
+            <point key="canvasLocation" x="1657.9710144927537" y="-320.75892857142856"/>
+        </scene>
+        <!--Grading Material View Controller-->
+        <scene sceneID="FrC-8p-x2S">
+            <objects>
+                <viewController id="BrV-u8-TVL" customClass="GradingMaterialViewController" customModule="Upgrade_Belt" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="NyG-6g-Lpp">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="mobile_tag_2.png" translatesAutoresizingMaskIntoConstraints="NO" id="jN6-1B-nWI">
+                                <rect key="frame" x="-28" y="54" width="474" height="808"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vvW-Tt-6jb">
+                                <rect key="frame" x="59" y="66" width="48" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="&lt; Back">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="didTapClose:" destination="BrV-u8-TVL" eventType="touchUpInside" id="TN3-dm-XvR"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="F3D-jZ-nlA"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="7ZP-cE-aH1"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HnZ-oQ-AYz" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2421.739130434783" y="-321.42857142857139"/>
         </scene>
         <!--About us-->
         <scene sceneID="wg7-f3-ORb">
@@ -82,7 +115,7 @@
                         <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
-                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
+                        <segue destination="po1-vK-Qfs" kind="relationship" relationship="viewControllers" id="u7Y-xg-7CH"/>
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
                     </connections>
                 </tabBarController>
@@ -90,9 +123,29 @@
             </objects>
             <point key="canvasLocation" x="0.0" y="0.0"/>
         </scene>
+        <!--Belts-->
+        <scene sceneID="rbt-X0-GwP">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="po1-vK-Qfs" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Belts" image="belt-icon.png" id="acW-dT-cKf"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="6Qx-2x-a2U">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="9pv-A4-QxB" kind="relationship" relationship="rootViewController" id="pLY-4g-P96"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="1K7-eb-kod" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="747.82608695652175" y="-320.75892857142856"/>
+        </scene>
     </scenes>
     <resources>
         <image name="belt-icon.png" width="25" height="25"/>
         <image name="info.circle" catalog="system" width="64" height="60"/>
+        <image name="mobile_tag_2.png" width="1125" height="2436"/>
     </resources>
 </document>
