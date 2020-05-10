@@ -52,7 +52,7 @@ class CarouselPageViewController: UIPageViewController {
 
 extension CarouselPageViewController: UIPageViewControllerDataSource {
     func pageViewController(_: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController? {
-        guard let viewControllerIndex = items.index(of: viewController) else {
+        guard let viewControllerIndex = items.firstIndex(of: viewController) else {
             return nil
         }
         
@@ -70,7 +70,7 @@ extension CarouselPageViewController: UIPageViewControllerDataSource {
     }
     
     func pageViewController(_: UIPageViewController, viewControllerAfter viewController: UIViewController) -> UIViewController? {
-        guard let viewControllerIndex = items.index(of: viewController) else {
+        guard let viewControllerIndex = items.firstIndex(of: viewController) else {
             return nil
         }
         
@@ -92,7 +92,7 @@ extension CarouselPageViewController: UIPageViewControllerDataSource {
     
     func presentationIndex(for _: UIPageViewController) -> Int {
         guard let firstViewController = viewControllers?.first,
-            let firstViewControllerIndex = items.index(of: firstViewController) else {
+            let firstViewControllerIndex = items.firstIndex(of: firstViewController) else {
                 return 0
         }
         
