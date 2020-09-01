@@ -31,6 +31,8 @@ class GradientBackgroundView : UIView {
 
         guard let context = UIGraphicsGetCurrentContext() else { return }
         
+        self.layer.contentsScale = UIScreen.main.nativeScale
+        
         //// Color Declarations
         let darkGreenColor = UIColor(red: 78.0/255.0, green: 105.0/255.0, blue: 75.0/255.0, alpha: 1.0)
         let lightGreenColor = UIColor(red: 189.0/255.0, green: 234.0/255.0, blue: 167.0/255.0, alpha: 1.0)
@@ -42,29 +44,74 @@ class GradientBackgroundView : UIView {
         context.addRect(rect)
         context.drawPath(using: .fillStroke)
 
+        let basicDeltaXUpper1 = -40
+        let basicDeltaYUpper1 = 0
+        
+        let basicDeltaXUpper2 = 25
+        let basicDeltaYUpper2 = -147
+        
+        let basicDeltaXLower1 = 97
+        let basicDeltaYLower1 = 154
+        
+        let basicDeltaXLower2 = 319
+        let basicDeltaYLower2 = 127
+        
+        let basicWidthSmall = 194
+        let basicHeightSmall = 194
+        let basicWidthLarge = 294
+        let basicHeightLarge = 294
+        
+        let basicW = 375
+        let basicH = 667
+        
+        // Upper circles Delta's
+        let deltaXUpper1 = (basicDeltaXUpper1 * Int(rect.size.width)) / basicW
+        let deltaYUpper1 = (basicDeltaYUpper1 * Int(rect.size.height)) / basicH
+        
+        let deltaXUpper2 = (basicDeltaXUpper2 * Int(rect.size.width)) / basicW
+        let deltaYUpper2 = (basicDeltaYUpper2 * Int(rect.size.height)) / basicH
+        
+        // Circle sizes
+        let smallWidth = (basicWidthSmall * Int(rect.size.width)) / basicW
+        let smallHeight = (basicHeightSmall * Int(rect.size.height)) / basicH
+
+        let smallMid = (smallWidth + smallHeight) / 2
+        
+        let largeWidth = (basicWidthLarge * Int(rect.size.width)) / basicW
+        let largeHeight = (basicHeightLarge * Int(rect.size.height)) / basicH
+        
+        let largeMid = (largeWidth + largeHeight) / 2
+        
+        // Lower circles Delta's
+        let deltaXLower1 = (basicDeltaXLower1 * Int(rect.size.width)) / basicW
+        let deltaYLower1 = (basicDeltaYLower1 * Int(rect.size.height)) / basicH
+        
+        let deltaXLower2 = (basicDeltaXLower2 * Int(rect.size.width)) / basicW
+        let deltaYLower2 = (basicDeltaYLower2 * Int(rect.size.height)) / basicH
+        
         // Draw dark green circle
         context.setFillColor(darkGreenColor.cgColor)
         context.setStrokeColor(darkGreenColor.cgColor)
-        context.addEllipse(in: CGRect(x: -40, y: 0, width: 194, height: 194))
+        context.addEllipse(in: CGRect(x: deltaXUpper1, y: deltaYUpper1, width: smallMid, height: smallMid))
         context.drawPath(using: .fillStroke)
 
         // Draw light green circle
         context.setFillColor(lightGreenColor.cgColor)
         context.setStrokeColor(lightGreenColor.cgColor)
-        context.addEllipse(in: CGRect(x: 25, y: -147, width: 294, height: 294))
+        context.addEllipse(in: CGRect(x: deltaXUpper2, y: deltaYUpper2, width: largeMid, height: largeMid))
         context.drawPath(using: .fillStroke)
 
 
         // Draw dark orange circle
         context.setFillColor(darkOrangeColor.cgColor)
         context.setStrokeColor(darkOrangeColor.cgColor)
-        context.addEllipse(in: CGRect(x: self.frame.size.width-97, y: self.frame.size.height - 154, width: 194, height: 194))
+        context.addEllipse(in: CGRect(x: Int(rect.size.width)-deltaXLower1, y: Int(rect.size.height) - deltaYLower1, width: smallMid, height: smallMid))
         context.drawPath(using: .fillStroke)
 
         // Draw light orange circle
         context.setFillColor(lightOrangeColor.cgColor)
         context.setStrokeColor(lightOrangeColor.cgColor)
-        context.addEllipse(in: CGRect(x: self.frame.size.width - 319, y: self.frame.size.height-127, width: 294, height: 294))
+        context.addEllipse(in: CGRect(x: Int(rect.size.width) - deltaXLower2, y: Int(rect.size.height)-deltaYLower2, width: largeMid, height: largeMid))
         context.drawPath(using: .fillStroke)
                 
         

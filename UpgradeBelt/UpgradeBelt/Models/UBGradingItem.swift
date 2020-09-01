@@ -14,6 +14,7 @@ struct UBGradingItem : Codable {
     let requirements: String?
     let gradingPatterns: [UBGradingPattern]?
     let terminology: [UBTerminologyItem]?
+    let iconName: String
     
     enum CodingKeys: String, CodingKey {
         case identifier = "id"
@@ -21,6 +22,11 @@ struct UBGradingItem : Codable {
         case requirements = "requirements"
         case gradingPatterns = "patterns"
         case terminology = "terminology"
+        case iconName = "iconName"
+    }
+    
+    init?() {
+        return nil
     }
     
     init(from decoder: Decoder) throws {
@@ -30,6 +36,7 @@ struct UBGradingItem : Codable {
         self.requirements = try container.decode(String.self, forKey: .requirements)
         self.gradingPatterns = try container.decode([UBGradingPattern].self, forKey: .gradingPatterns)
         self.terminology = try container.decode([UBTerminologyItem].self, forKey: .terminology)
+        self.iconName = try container.decode(String.self, forKey: .iconName)
     }
     
     func encode(to encoder: Encoder) throws {
@@ -39,5 +46,6 @@ struct UBGradingItem : Codable {
         try container.encode(self.requirements, forKey: .requirements)
         try container.encode(self.gradingPatterns, forKey: .gradingPatterns)
         try container.encode(self.terminology, forKey: .terminology)
+        try container.encode(self.iconName, forKey: .iconName)
     }
 }

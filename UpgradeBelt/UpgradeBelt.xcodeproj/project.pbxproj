@@ -7,9 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		A34DBD5124BDF217008838A5 /* icon_terminology.png in Resources */ = {isa = PBXBuildFile; fileRef = A34DBD4E24BDF217008838A5 /* icon_terminology.png */; };
-		A34DBD5224BDF217008838A5 /* icon_patterns.png in Resources */ = {isa = PBXBuildFile; fileRef = A34DBD4F24BDF217008838A5 /* icon_patterns.png */; };
-		A34DBD5424BDF255008838A5 /* icon_requirements.png in Resources */ = {isa = PBXBuildFile; fileRef = A34DBD5324BDF255008838A5 /* icon_requirements.png */; };
 		A36BE825244212A40025F302 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36BE824244212A40025F302 /* AppDelegate.swift */; };
 		A36BE827244212A40025F302 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36BE826244212A40025F302 /* SceneDelegate.swift */; };
 		A36BE829244212A40025F302 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36BE828244212A40025F302 /* FirstViewController.swift */; };
@@ -50,9 +47,6 @@
 		A36BE894244212F50025F302 /* green-tag.png in Resources */ = {isa = PBXBuildFile; fileRef = A36BE876244212F50025F302 /* green-tag.png */; };
 		A36BE895244212F50025F302 /* black-tag.png in Resources */ = {isa = PBXBuildFile; fileRef = A36BE877244212F50025F302 /* black-tag.png */; };
 		A36BE896244212F50025F302 /* green-belt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A36BE878244212F50025F302 /* green-belt@2x.png */; };
-		A371B5CA246442B100DDF4FA /* CarouselItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = A371B5C9246442B100DDF4FA /* CarouselItem.xib */; };
-		A371B5CC2464444300DDF4FA /* CarouselPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A371B5CB2464444300DDF4FA /* CarouselPageViewController.swift */; };
-		A371B5CE2464447500DDF4FA /* CarouselItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A371B5CD2464447500DDF4FA /* CarouselItem.swift */; };
 		A389B75524A271C6006B673D /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = A389B75424A271C6006B673D /* background.png */; };
 		A389B75B24A27DE3006B673D /* ANTQUABI.TTF in Resources */ = {isa = PBXBuildFile; fileRef = A389B75724A27DE3006B673D /* ANTQUABI.TTF */; };
 		A389B75C24A27DE3006B673D /* ANTQUAB.TTF in Resources */ = {isa = PBXBuildFile; fileRef = A389B75824A27DE3006B673D /* ANTQUAB.TTF */; };
@@ -74,6 +68,7 @@
 		A38F7ABC244347EC00CFDC1C /* UBDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38F7ABB244347EC00CFDC1C /* UBDataStore.swift */; };
 		A38F7ABD244347EC00CFDC1C /* UBDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38F7ABB244347EC00CFDC1C /* UBDataStore.swift */; };
 		A38F7AC22448837600CFDC1C /* GradingMaterialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38F7AC12448837600CFDC1C /* GradingMaterialViewController.swift */; };
+		A3CCD4F024C661A400BB160D /* CoyoteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CCD4EF24C661A400BB160D /* CoyoteButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -94,9 +89,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		A34DBD4E24BDF217008838A5 /* icon_terminology.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_terminology.png; sourceTree = "<group>"; };
-		A34DBD4F24BDF217008838A5 /* icon_patterns.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_patterns.png; sourceTree = "<group>"; };
-		A34DBD5324BDF255008838A5 /* icon_requirements.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_requirements.png; sourceTree = "<group>"; };
 		A36BE821244212A40025F302 /* Upgrade Belt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Upgrade Belt.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A36BE824244212A40025F302 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A36BE826244212A40025F302 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -143,9 +135,6 @@
 		A36BE876244212F50025F302 /* green-tag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "green-tag.png"; sourceTree = "<group>"; };
 		A36BE877244212F50025F302 /* black-tag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "black-tag.png"; sourceTree = "<group>"; };
 		A36BE878244212F50025F302 /* green-belt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "green-belt@2x.png"; sourceTree = "<group>"; };
-		A371B5C9246442B100DDF4FA /* CarouselItem.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CarouselItem.xib; sourceTree = "<group>"; };
-		A371B5CB2464444300DDF4FA /* CarouselPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselPageViewController.swift; sourceTree = "<group>"; };
-		A371B5CD2464447500DDF4FA /* CarouselItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselItem.swift; sourceTree = "<group>"; };
 		A389B75424A271C6006B673D /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = "UpgradeBelt/Supporting files/images/background.png"; sourceTree = SOURCE_ROOT; };
 		A389B75724A27DE3006B673D /* ANTQUABI.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = ANTQUABI.TTF; sourceTree = "<group>"; };
 		A389B75824A27DE3006B673D /* ANTQUAB.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = ANTQUAB.TTF; sourceTree = "<group>"; };
@@ -162,6 +151,7 @@
 		A38F7AB7244346E600CFDC1C /* UBGradingMaterial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UBGradingMaterial.swift; sourceTree = "<group>"; };
 		A38F7ABB244347EC00CFDC1C /* UBDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UBDataStore.swift; sourceTree = "<group>"; };
 		A38F7AC12448837600CFDC1C /* GradingMaterialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradingMaterialViewController.swift; sourceTree = "<group>"; };
+		A3CCD4EF24C661A400BB160D /* CoyoteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoyoteButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -189,17 +179,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		A34DBD4C24BDF217008838A5 /* grading_material */ = {
-			isa = PBXGroup;
-			children = (
-				A34DBD5324BDF255008838A5 /* icon_requirements.png */,
-				A34DBD4E24BDF217008838A5 /* icon_terminology.png */,
-				A34DBD4F24BDF217008838A5 /* icon_patterns.png */,
-			);
-			name = grading_material;
-			path = "UpgradeBelt/Supporting files/images/grading_material";
-			sourceTree = SOURCE_ROOT;
-		};
 		A36BE818244212A40025F302 = {
 			isa = PBXGroup;
 			children = (
@@ -273,7 +252,6 @@
 		A36BE85C244212F50025F302 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				A34DBD4C24BDF217008838A5 /* grading_material */,
 				A389B75F24A7FE98006B673D /* backbutton.png */,
 				A389B75424A271C6006B673D /* background.png */,
 				A38F7AA424423D8600CFDC1C /* belt-icon.png */,
@@ -314,10 +292,8 @@
 		A371B5C82464428100DDF4FA /* UIControls */ = {
 			isa = PBXGroup;
 			children = (
-				A371B5C9246442B100DDF4FA /* CarouselItem.xib */,
-				A371B5CB2464444300DDF4FA /* CarouselPageViewController.swift */,
-				A371B5CD2464447500DDF4FA /* CarouselItem.swift */,
 				A389B76324AD44A4006B673D /* GradientBackgroundView.swift */,
+				A3CCD4EF24C661A400BB160D /* CoyoteButton.swift */,
 			);
 			path = UIControls;
 			sourceTree = "<group>";
@@ -457,7 +433,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				A36BE88C244212F50025F302 /* black-belt-2.png in Resources */,
-				A34DBD5124BDF217008838A5 /* icon_terminology.png in Resources */,
 				A389B75524A271C6006B673D /* background.png in Resources */,
 				A36BE88B244212F50025F302 /* black-belt-3.png in Resources */,
 				A36BE879244212F50025F302 /* grading.json in Resources */,
@@ -484,11 +459,9 @@
 				A36BE88F244212F50025F302 /* blue-tag@2x.png in Resources */,
 				A389B75C24A27DE3006B673D /* ANTQUAB.TTF in Resources */,
 				A389B76024A7FE98006B673D /* backbutton.png in Resources */,
-				A34DBD5224BDF217008838A5 /* icon_patterns.png in Resources */,
 				A36BE890244212F50025F302 /* black-belt-3@2x.png in Resources */,
 				A36BE833244212A50025F302 /* Assets.xcassets in Resources */,
 				A36BE893244212F50025F302 /* white-belt.png in Resources */,
-				A371B5CA246442B100DDF4FA /* CarouselItem.xib in Resources */,
 				A36BE883244212F50025F302 /* green-tag@2x.png in Resources */,
 				A389B75D24A27DE3006B673D /* BKANT.TTF in Resources */,
 				A38F7AA824423D8600CFDC1C /* belt-icon@2x.png in Resources */,
@@ -498,7 +471,6 @@
 				A36BE87C244212F50025F302 /* white-belt@2x.png in Resources */,
 				A38F7AA924423D8600CFDC1C /* belt-icon@3x.png in Resources */,
 				A36BE88D244212F50025F302 /* blue-belt.png in Resources */,
-				A34DBD5424BDF255008838A5 /* icon_requirements.png in Resources */,
 				A36BE887244212F50025F302 /* red-belt@2x.png in Resources */,
 				A36BE885244212F50025F302 /* red-belt.png in Resources */,
 				A36BE82E244212A40025F302 /* Main.storyboard in Resources */,
@@ -532,13 +504,12 @@
 				A36BE82B244212A40025F302 /* SecondViewController.swift in Sources */,
 				A38F7ABC244347EC00CFDC1C /* UBDataStore.swift in Sources */,
 				A38F7AB52443366700CFDC1C /* UBGradingItem.swift in Sources */,
-				A371B5CE2464447500DDF4FA /* CarouselItem.swift in Sources */,
 				A36BE829244212A40025F302 /* FirstViewController.swift in Sources */,
 				A36BE825244212A40025F302 /* AppDelegate.swift in Sources */,
 				A38F7AC22448837600CFDC1C /* GradingMaterialViewController.swift in Sources */,
+				A3CCD4F024C661A400BB160D /* CoyoteButton.swift in Sources */,
 				A389B76424AD44A4006B673D /* GradientBackgroundView.swift in Sources */,
 				A38F7AB8244346E600CFDC1C /* UBGradingMaterial.swift in Sources */,
-				A371B5CC2464444300DDF4FA /* CarouselPageViewController.swift in Sources */,
 				A36BE827244212A40025F302 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

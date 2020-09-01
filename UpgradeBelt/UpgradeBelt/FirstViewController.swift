@@ -12,11 +12,8 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
     
     // Data model: These strings will be the data for the table view cells
     let sections: [String] = ["Colour Belts", "Black Belts"]
-    let colorBeltThumbnails: [String] = ["white-belt.png", "yellow-tag.png", "yellow-belt.png", "green-tag.png", "green-belt.png", "blue-tag.png", "blue-belt.png", "red-tag.png", "red-belt.png", "black-tag.png"]
-    let blackBeltThumbnails: [String] = ["black-belt-1.png", "black-belt-2.png", "black-belt-3.png", "black-belt-4.png"]
-    var thumbnails: [[String]] = []
-    var tableData:[[UBGradingItem]] = []
     
+    var tableData:[[UBGradingItem]] = []
     var lastY: CGFloat = 0.0
    
     // cell reuse id (cells that scroll out of view can be reused)
@@ -32,10 +29,6 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
         
         self.navigationItem.backBarButtonItem = UIBarButtonItem(
         title: "Belts", style: .plain, target: nil, action: nil)
-        
-        // add thumbnails
-        self.thumbnails.append(self.colorBeltThumbnails)
-        self.thumbnails.append(self.blackBeltThumbnails)
         
         // load data from json to display in table view
         let gradingMaterial = UBDataStore().gradingMaterial
@@ -54,11 +47,17 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
         tableView.dataSource = self
         
         // no lines where there aren't cells
-        self.tableView.tableFooterView = UIView(frame: .zero)
+        self.tableView.tableFooterView = UIView(frame: .zero)        
         
         let gradientView = GradientBackgroundView()
         self.tableView.backgroundView = gradientView
         
+//        let backgroundImage = UIImage.init(named: "background")
+//        let imageView = UIImageView(image: backgroundImage)
+//        imageView.contentMode = .scaleAspectFill
+//        self.tableView.backgroundView = imageView
+        
+         tableView.bounces = false
         
 ////        // Add a background view to the table view
 //       let backgroundImage = UIImage(named: "background.png")
@@ -83,21 +82,21 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
         
     }
     
-//    func scrollViewDidScroll(_ scrollView: UIScrollView) {
-//        let currentY = scrollView.contentOffset.y
-//        let currentBottomY = scrollView.frame.size.height + currentY
-//        if currentY > lastY {
-//            //"scrolling down"
-//            tableView.bounces = true
-//        } else {
-//            //"scrolling up"
-//            // Check that we are not in bottom bounce
-//            if currentBottomY < scrollView.contentSize.height + scrollView.contentInset.bottom {
-//                tableView.bounces = false
-//            }
-//        }
-//        lastY = scrollView.contentOffset.y
-//    }
+    func scrollViewDidScroll(_ scrollView: UIScrollView) {
+        let currentY = scrollView.contentOffset.y
+        let currentBottomY = scrollView.frame.size.height + currentY
+        if currentY > lastY {
+            //"scrolling down"
+            tableView.bounces = true
+        } else {
+            //"scrolling up"
+            // Check that we are not in bottom bounce
+            if currentBottomY < scrollView.contentSize.height + scrollView.contentInset.bottom {
+                tableView.bounces = false
+            }
+        }
+        lastY = scrollView.contentOffset.y
+    }
     
     // make the table view cells totally transparent
     func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
@@ -112,11 +111,11 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
     
 //    // set height for header in section in table view
 //    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
-//        return 70
+//        return 50
 //    }
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 60
+        return 75
     }
 
     // number of rows in table view
@@ -127,12 +126,19 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
 //    // create a view for header for each section in table view
 //    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
 //        let view = UIView(frame: CGRect(x: 0, y: 0, width: tableView.frame.size.width, height: 50))
+//
+////        let backgroundView = GradientBackgroundView()
+////        view.addSubview(backgroundView)
+//
 //        let label = UILabel(frame: CGRect(x: 10, y: 10, width: tableView.frame.size.width, height: 30))
 //        label.text = self.sections[section]
 //        label.font = UIFont(name: "BookAntiqua", size: 23)
 //        view.addSubview(label)
-////        view.backgroundColor = UIColor(red: 189/255.0, green: 234/255.0, blue: 167/255.0, alpha: 1.0)
-//        view.backgroundColor = .clear
+//
+////        view.backgroundColor = .lightGray
+//
+//        view.backgroundColor = UIColor(red: 189/255.0, green: 234/255.0, blue: 167/255.0, alpha: 1.0)
+////        view.backgroundColor = .clear
 //
 //        return view
 //    }
@@ -142,13 +148,17 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
 
         // create a new cell if needed or reuse an old one
         let cell:UITableViewCell = self.tableView.dequeueReusableCell(withIdentifier: cellReuseIdentifier)!
-
+        
         // set the text from the data model
         let gradingItems = self.tableData[indexPath.section]
         let gradingItem = gradingItems[indexPath.row] as UBGradingItem
+        
         cell.textLabel?.text = gradingItem.grade
-        cell.textLabel?.font = UIFont(name: "BookAntiqua", size: 18)
-        cell.imageView?.image = UIImage(named: self.thumbnails[indexPath.section][indexPath.row])
+//        cell.textLabel?.font = UIFont(name: "BookAntiqua", size: 20)
+        
+        cell.imageView?.frame = CGRect(x: 0, y: 0, width: 152, height: 35)
+        cell.imageView?.image = UIImage(named: gradingItem.iconName)
+        cell.imageView?.contentMode = .scaleAspectFit
         
         return cell
     }
@@ -160,6 +170,20 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
         tableView.deselectRow(at: indexPath, animated: false)
         
         //print("You tapped cell number \(indexPath.row).")
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?)
+    {
+        if segue.destination is GradingMaterialViewController
+        {
+            let indexPath = tableView.indexPathForSelectedRow
+            if (indexPath != nil) {
+                let gradingItems = self.tableData[indexPath!.section]
+                let gradingItem = gradingItems[indexPath!.row] as UBGradingItem
+                let vc = segue.destination as? GradingMaterialViewController
+                vc?.selectedBelt = gradingItem
+            }
+        }
     }
 }
 
