@@ -148,4 +148,33 @@ class GradingMaterialViewController: UIViewController, UITableViewDelegate, UITa
             return cell
         }
     
+        // method to run when table view cell is tapped
+        func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+            
+            switch indexPath.row {
+            case 0:
+                performSegue(withIdentifier: "SegueFromGradingMaterialToRequirements", sender: self)
+            case 1:
+                performSegue(withIdentifier: "SegueFromGradingMaterialToPatterns", sender: self)
+            case 2:
+                performSegue(withIdentifier: "SegueFromGradingMaterialToTerminology", sender: self)
+            default:
+                performSegue(withIdentifier: "SegueFromGradingMaterialToRequirements", sender: self)
+            }
+            
+            
+            tableView.deselectRow(at: indexPath, animated: false)
+            
+            //print("You tapped cell number \(indexPath.row).")
+        }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?)
+    {
+        if segue.destination is RequirementsViewController
+        {
+            let vc = segue.destination as? RequirementsViewController
+            vc?.selectedBelt = selectedBelt
+        }
+    }
+    
 }

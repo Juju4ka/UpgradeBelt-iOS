@@ -11,7 +11,7 @@ import Foundation
 struct UBGradingItem : Codable {
     let identifier: String
     let grade: String?
-    let requirements: String?
+    let requirements: [UBGradingRequirement]?
     let gradingPatterns: [UBGradingPattern]?
     let terminology: [UBTerminologyItem]?
     let iconName: String
@@ -33,7 +33,7 @@ struct UBGradingItem : Codable {
         let container = try decoder.container(keyedBy: CodingKeys.self)
         self.identifier = try container.decode(String.self, forKey: .identifier)
         self.grade = try container.decode(String.self, forKey: .grade)
-        self.requirements = try container.decode(String.self, forKey: .requirements)
+        self.requirements = try container.decode([UBGradingRequirement].self, forKey: .requirements)
         self.gradingPatterns = try container.decode([UBGradingPattern].self, forKey: .gradingPatterns)
         self.terminology = try container.decode([UBTerminologyItem].self, forKey: .terminology)
         self.iconName = try container.decode(String.self, forKey: .iconName)

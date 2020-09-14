@@ -5,7 +5,13 @@
                    "id": "0",
                    "grade": "10th kup - White Belt",
                    "iconName": "white-belt.png",
-                   "requirements": "Parallel Stance Punch (10 times)\n\t\t\tFront Rising Kick (10 times each leg)\n\t\t\t4 Directiona Punchg Saju Jirugi (Video below)\n\t\t\t4 Directional Block Saju Maki (Video below), Press Ups (10)\n\t\t\t3-step alone (prearranged) Sambo Yakok Matsogi (see below for description)\n\t\t\tTerminology & History",
+                   "requirements": [
+                       {"id":"0","name":"Parallel Stance Punch (10 times)", "patternId":null, "description": null},
+                       {"id":"1","name":"Front Rising Kick (10 times each leg)", "patternId":null, "description": null},
+                       {"id":"2","name":"4 Directional Punch Saju Jirugi", "patternId":"0", "description": null},
+                       {"id":"3","name":"Press Ups (10)", "patternId":null, "description": null},
+                       {"id":"4","name":"3-step alone (prearranged) Sambo Yakok Matsogi", "patternId":null, "description":""},
+                       {"id":"5","name":"Terminology & History", "patternId":null, "description":""}],
                    "patterns": [
                                 {
                                 "id": "0",
@@ -177,7 +183,11 @@
                    "id": "1",
                    "grade": "9th kup - Yellow Tag",
                    "iconName": "yellow-tag.png",
-                   "requirements": "Chon-Ji Tul \n\t\t\tPress Ups (10)\n\t\t\tSitting Stance Punch (10)\n\t\t\t3 – Step Sparring Pre-arranged with partner SAMBO YAKOK MATSOGI",
+                   "requirements": [
+                       {"id":"0", "name": "Chon-Ji Tul", "patternId":"0", "description": null},
+                       {"id":"1", "name": "Press Ups (10)", "patternId":null, "description": null},
+                       {"id":"2", "name": "Sitting Stance Punch (10)", "patternId":null, "description": null},
+                       {"id":"3", "name": "3 – Step Sparring Pre-arranged with partner - SAMBO YAKOK MATSOGI", "patternId":null, "description": ""}],
                    "patterns": [
                                 {
                                 "id": "0",
@@ -243,7 +253,10 @@
                    "id": "2",
                    "grade": "8th kup - Yellow Belt",
                    "iconName": "yellow-belt.png",
-                   "requirements": "Dan-Gun Tul 3-Step Sparring (Not Pre-arranged) - SAMBO MATSOGI",
+                   "requirements": [
+                       {"id":"0", "name":"Dan-Gun Tul", "patternId":"0", "description":null},
+                       {"id":"1", "name":"3-Step Sparring (Not Pre-arranged) - SAMBO MATSOGI", "patternId":null, "description":""}                       
+                   ],
                    "patterns": [
                                 {
                                 "id": "0",
@@ -294,7 +307,13 @@
                    "id": "3",
                    "grade": "7th kup - Green Tag",
                    "iconName": "green-tag.png",
-                   "requirements": "Do-San Tul \n\t\t\t3-Step Sparring (Not Pre-arranged) - SAMBO MATSOGI \n\t\t\t2-Step Sparring (Not Pre-arranged) -IBO MATSOGI \n\t\t\tPower: Side Piercing Kick Yopcha Jirugi \n\t\t\tTurning Kick Dollyo Chagi",
+                   "requirements": [
+                       {"id":"0", "name":"Do-San Tul", "patternId":"0", "description":null},
+                       {"id":"1", "name":"3-Step Sparring (Not Pre-arranged) - SAMBO MATSOGI", "patternId":null, "description":null},
+                       {"id":"2", "name":"2-Step Sparring (Not Pre-arranged) - IBO MATSOGI", "patternId":null, "description":null},
+                       {"id":"3", "name":"Power: Side Piercing Kick Yopcha Jirugi", "patternId":null, "description":null},
+                       {"id":"4", "name":"Turning Kick Dollyo Chagi", "patternId":null, "description":null}
+                   ],
                    "patterns": [
                                 {
                                 "id": "0",
@@ -380,7 +399,14 @@
                    "id": "4",
                    "grade": "6th kup - Green Belt",
                    "iconName": "green-belt.png",
-                   "requirements": "Won-Hyo Tul  \n\t\t\t\t2-Step Sparring Ibo Matsogi \n\t\t\t\t1-Step Ilbo Matsogi \n\t\t\t\tPower: Side Piercing Kick Yopcha Jirugi  \n\t\t\t\tReverse Turning Kick Bandae Dollyo Chagi  \n\t\t\t\tHand Technique Son Gilsool",
+                   "requirements": [
+                       {"id":"0", "name":"Won-Hyo Tul", "patternId":"0", "description":null},
+                       {"id":"1", "name":"2-Step Sparring Ibo Matsogi", "patternId":null, "description":null},
+                       {"id":"2", "name":"1-Step Ilbo Matsogi", "patternId":null, "description":null},
+                       {"id":"3", "name":"Side Piercing Kick Yopcha Jirugi (Power)", "patternId":null, "description":null},
+                       {"id":"4", "name":"Reverse Turning Kick Bandae Dollyo Chagi (Power)", "patternId":null, "description":null},
+                       {"id":"5", "name":"Hand Technique Son Gilsool (Power)", "patternId":null, "description":null}
+                   ],
                    "patterns": [
                                 {
                                 "id": "0",
@@ -441,7 +467,14 @@
                    "id": "5",
                    "grade": "5th kup - Blue Tag",
                    "iconName": "blue-tag.png",
-                   "requirements": "Yul-Gok Tul  \n\t\t\t\t1-Step Sparring Ilbo Matsogi  \n\t\t\t\tSemi-Free Sparring Ban Jayu Matsogi  \n\t\t\t\tPower: Side Piercing Kick Yopcha Jirugi \n\t\t\t\tReverse Turning Kick Bandae Dollyo Chagi  \n\t\t\t\tHand Technique Son Gilsool",
+                   "requirements": [
+                       {"id":"0", "name":"Yul-Gok Tul", "patternId":"0", "description":null},
+                       {"id":"1", "name":"1-Step Sparring Ilbo Matsogi", "patternId":null, "description":null},
+                       {"id":"2", "name":"Semi-Free Sparring Ban Jayu Matsogi", "patternId":null, "description":null},
+                       {"id":"3", "name":"Side Piercing Kick Yopcha Jirugi (Power)", "patternId":null, "description":null},
+                       {"id":"4", "name":"Reverse Turning Kick Bandae Dollyo Chagi (Power)", "patternId":null, "description":null},
+                       {"id":"5", "name":"Hand Technique Son Gilsool (Power)", "patternId":null, "description":null}
+                   ],
                    "patterns": [
                                 {
                                 "id": "0",
@@ -487,7 +520,13 @@
                    "id": "6",
                    "grade": "4th kup - Blue Belt",
                    "iconName": "blue-belt.png",
-                   "requirements": "Joong-Gun Tul \n\t\t\t\tSemi-Free Sparring Ban Jayu Matsogi \n\t\t\t\tFree Sparring Jayu Matsogi \n\t\t\t\tPower: Reverse Turning Kick BANDAE DOLLYO CHAGI \n\t\t\t\tHand Technique SON GILSOOL",
+                   "requirements": [
+                       {"id":"0", "name":"Joong-Gun Tul", "patternId":"0", "description":null},
+                       {"id":"1", "name":"Semi-Free Sparring Ban Jayu Matsogi", "patternId":null, "description":null},
+                       {"id":"2", "name":"Free Sparring Jayu Matsogi", "patternId":null, "description":null},
+                       {"id":"3", "name":"Reverse Turning Kick BANDAE DOLLYO CHAGI (Power)", "patternId":null, "description":null},
+                       {"id":"4", "name":"Hand Technique SON GILSOOL (Power)", "patternId":null, "description":null}
+                   ],
                    "patterns": [
                                 {
                                 "id": "0",
@@ -568,7 +607,13 @@
                    "id": "7",
                    "grade": "3rd kup - Red Tag",
                    "iconName": "red-tag.png",
-                   "requirements": "Toi-Gye Tul \n\t\t\t\tSemi-Free Sparring Ban Jayu Matsogi \n\t\t\t\tFree Sparring Jayu Matsogi \n\t\t\t\tPower: Reverse Turning Kick BANDAE DOLLYO CHAGI \n\t\t\t\tHand Technique SON GILSOOL",
+                   "requirements": [
+                       {"id":"0", "name":"Toi-Gye Tul", "patternId":"0", "description":null},
+                       {"id":"1", "name":"Semi-Free Sparring Ban Jayu Matsogi", "patternId":null, "description":null},
+                       {"id":"2", "name":"Free Sparring Jayu Matsogi", "patternId":null, "description":null},
+                       {"id":"3", "name":"Reverse Turning Kick BANDAE DOLLYO CHAGI (Power)", "patternId":null, "description":null},
+                       {"id":"4", "name":"Hand Technique SON GILSOOL (Power)", "patternId":null, "description":null}
+                   ],
                    "patterns": [
                                 {
                                 "id": "0",
@@ -614,7 +659,15 @@
                    "id": "8",
                    "grade": "2nd kup - Red Belt",
                    "iconName": "red-belt.png",
-                   "requirements": "Hwa-Rang Tul, Self Defence (Pre-arranged) Yakok Hosin Sul, Free Sparring Jayu Matsogi, Power: Side Piercing Kick Yopcha Jirugi, Turning Kick Dollyo Chagi, Reverse Turning Kick Bandae Dollyo Chagi, Hand Technique Son Gilsool",
+                   "requirements": [
+                       {"id":"0", "name":"Hwa-Rang Tul", "patternId":"0", "description":null},
+                       {"id":"1", "name":"Self Defence (Pre-arranged) Yakok Hosin Sul", "patternId":null, "description":null},
+                       {"id":"2", "name":"Free Sparring Jayu Matsogi", "patternId":null, "description":null},
+                       {"id":"3", "name":"Side Piercing Kick Yopcha Jirugi (Power)", "patternId":null, "description":null},
+                       {"id":"4", "name":"Turning Kick Dollyo Chagi (Power)", "patternId":null, "description":null},
+                       {"id":"5", "name":"Reverse Turning Kick Bandae Dollyo Chagi (Power)", "patternId":null, "description":null},
+                       {"id":"6", "name":"Hand Technique Son Gilsool (Power)", "patternId":null, "description":null}
+                   ],
                    "patterns": [
                                 {
                                 "id": "0",
@@ -660,10 +713,25 @@
                    "id": "9",
                    "grade": "1st kup - Black Tag",
                    "iconName": "black-tag.png",
-                   "requirements": "Hwa-Rang Tul, Choong-Moo Tul, Self Defence Hosin Sul, Free Sparring Jayu Matsogi, 2-1 Free Sparring I Dae IL Matsogi, Power: Reverse Turning Kick Bandae Dollyo Chagi, Spot Jumping Side Piercing Kick Twimyo Yopcha Busigi, Hand Techniques Son Gilsool",
+                   "requirements": [
+                       {"id":"0", "name":"Hwa-Rang Tul", "patternId":"0", "description":null},
+                       {"id":"1", "name":"Choong-Moo Tul", "patternId":"1", "description":null},
+                       {"id":"2", "name":"Self Defence Hosin Sul", "patternId":null, "description":null},
+                       {"id":"3", "name":"Free Sparring Jayu Matsogi", "patternId":null, "description":null},
+                       {"id":"4", "name":"2-1 Free Sparring I Dae IL Matsogi", "patternId":null, "description":null},
+                       {"id":"5", "name":"Reverse Turning Kick Bandae Dollyo Chagi (Power)", "patternId":null, "description":null},
+                       {"id":"6", "name":"Spot Jumping Side Piercing Kick Twimyo Yopcha Busigi (Power)", "patternId":null, "description":null},
+                       {"id":"7", "name":"Hand Techniques Son Gilsool (Power)", "patternId":null, "description":null}
+                   ],
                    "patterns": [
                                 {
                                 "id": "0",
+                                "name": "HWA-RANG",
+                                "movements": 29,
+                                "meaning": "HWA-RANG is named after the Hwa-Rang youth group, which originated in the Silla Dynasty in the early 7th century. The 29 movements refer to the 29th Infantry Division, where Taekwon-Do developed into maturity."
+                                },
+                                {
+                                "id": "1",
                                 "name": "CHOONG-MOO",
                                 "movements": 30,
                                 "meaning": "Choong-Moo is the pseudonym given to the great Admiral Yi Soon-Sin (Lee Dynasty). He is reputed to have invented the first armoured battleship (Kobukson) in 1592, said to be the precursor of the present day submarine. The reason why this pattern ends with a left hand attack is to symbolize his regrettable death, having no chance to show his unrestrained potential, checked by the forced reservation of his loyalty to the King."
@@ -698,7 +766,15 @@
                   "id": "0",
                   "grade": "1st Degree - Black Belt",
                   "iconName": "black-belt-1.png",
-                  "requirements": "Kwang-Gae Tul (click for description & Video)\n\t\t\tPo-Eun Tul (click for description & Video)\n\t\t\tGe-Baek Tul (click for description & Video)\n\t\t\tFoot Sparring BAL MATSOGI\n\t\t\tFree Sparring JAYU MATSOGI\n\t\t\tPower: \n\t\t\tFlying Turning Kick TWIMYO DOLLYO CHAGI \n\t\t\tHand Techniques GONG GYOKGI",
+                  "requirements": [
+                      {"id":"0", "name":"Kwang-Gae Tul", "patternId":"0", "description":null},
+                      {"id":"1", "name":"Po-Eun Tul", "patternId":"1", "description":null},
+                      {"id":"2", "name":"Ge-Baek Tul", "patternId":"2", "description":null},
+                      {"id":"3", "name":"Foot Sparring BAL MATSOGI", "patternId":null, "description":null},
+                      {"id":"4", "name":"Free Sparring JAYU MATSOGI", "patternId":null, "description":null},
+                      {"id":"5", "name":"Flying Turning Kick TWIMYO DOLLYO CHAGI (Power)", "patternId":null, "description":null},
+                      {"id":"6", "name":"Hand Techniques GONG GYOKGI (Power)", "patternId":null, "description":null}
+                  ],
                   "patterns": [
                                {
                                "id": "0",
@@ -831,7 +907,15 @@
                   "id": "1",
                   "grade": "2nd Degree - Black Belt",
                   "iconName": "black-belt-2.png",
-                  "requirements": "Eui-Am Tul (click for description & Video)\n\t\t\tChoong-Jang Tul (click for description & Video)\n\t\t\tJuche Tul (click for description & Video)\n\t\t\tFoot Sparring BAL MATSOGI\n\t\t\tFree Sparring JAYU MATSOGI\n\t\t\tPower: \n\t\t\tFlying Reverse Turning Kick TWIMYO BANDAE DOLLYO CHAGI \n\t\t\tHand Techniques GONG GYOKGI",
+                  "requirements": [
+                      {"id":"0", "name":"Eui-Am Tul", "patternId":"0", "description":null},
+                      {"id":"1", "name":"Choong-Jang Tul ", "patternId":"1", "description":null},
+                      {"id":"2", "name":"Juche Tul", "patternId":"2", "description":null},
+                      {"id":"3", "name":"Foot Sparring BAL MATSOGI", "patternId":null, "description":null},
+                      {"id":"4", "name":"Free Sparring JAYU MATSOGI", "patternId":null, "description":null},
+                      {"id":"5", "name":"Flying Reverse Turning Kick TWIMYO BANDAE DOLLYO CHAGI  (Power)", "patternId":null, "description":null},
+                      {"id":"6", "name":"Hand Techniques GONG GYOKGI", "patternId":null, "description":null}
+                  ],
                   "patterns": [
                                {
                                "id": "0",
@@ -1008,7 +1092,15 @@
                   "id": "2",
                   "grade": "3rd Degree - Black Belt",
                   "iconName": "black-belt-3.png",
-                  "requirements": "Sam-Il Tul (click for description & Video)\n\t\t\tYoo-Sin Tul (click for description & Video)\n\t\t\tChoi-Yong Tul (click for description & Video)\n\t\t\tFoot Sparring BAL MATSOGI\n\t\t\tFree Sparring JAYU MATSOGI\n\t\t\tPower: \n\t\t\tMid Air Kick 360 TWIO DOLMYO CHAGI \n\t\t\tHand Techniques GONG GYOKGI",
+                  "requirements": [
+                      {"id":"0", "name":"Sam-Il Tul", "patternId":"0", "description":null},
+                      {"id":"1", "name":"Yoo-Sin Tul", "patternId":"1", "description":null},
+                      {"id":"2", "name":"Choi-Yong Tul", "patternId":"2", "description":null},
+                      {"id":"3", "name":"Foot Sparring BAL MATSOGI", "patternId":null, "description":null},
+                      {"id":"4", "name":"Free Sparring JAYU MATSOGI", "patternId":null, "description":null},
+                      {"id":"5", "name":"Mid Air Kick 360 TWIO DOLMYO CHAGI (Power)", "patternId":null, "description":null},
+                      {"id":"6", "name":"Hand Techniques GONG GYOKGI (Power)", "patternId":null, "description":null}
+                  ],
                   "patterns": [
                                {
                                "id": "0",
@@ -1086,7 +1178,12 @@
                   "id": "3",
                   "grade": "4th Degree - Black Belt",
                   "iconName": "black-belt-4.png",
-                  "requirements": "UL-Ji Tul (click for description & Video)\n\t\t\tMoon-Moo Tul (click for description & Video)\n\t\t\tYong-Gae Tul (click for description & Video)\n\t\t\tPower: \n\t\t\tDemonstration",
+                  "requirements": [
+                      {"id":"0", "name":"UL-Ji Tul", "patternId":"0", "description":null},
+                      {"id":"1", "name":"Moon-Moo Tul", "patternId":"1", "description":null},
+                      {"id":"2", "name":"Yong-Gae Tul", "patternId":"2", "description":null},
+                      {"id":"3", "name":"Power: Demonstration", "patternId":null, "description":null}
+                  ],
                   "patterns": [
                                {
                                "id": "0",
