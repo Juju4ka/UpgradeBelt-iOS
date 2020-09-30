@@ -32,10 +32,13 @@ class RequirementsViewController: UIViewController, UITableViewDelegate, UITable
         self.tableView.register(UITableViewCell.self, forCellReuseIdentifier: cellReuseIdentifier)
 
         
-        let lightGreenColor = UIColor(red: 189.0/255.0, green: 234.0/255.0, blue: 167.0/255.0, alpha: 0.5)
+        let lightGreenColor = UIColor(red: 189.0/255.0, green: 234.0/255.0, blue: 167.0/255.0, alpha: 1.0)
         
         self.backgroundView.backgroundColor = lightGreenColor
         self.tableView.backgroundColor = .clear
+        
+        // no lines where there aren't cells
+        self.tableView.tableFooterView = UIView(frame: .zero)
      
         self.requirements = selectedBelt?.requirements ?? []
         

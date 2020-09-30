@@ -170,10 +170,16 @@ class GradingMaterialViewController: UIViewController, UITableViewDelegate, UITa
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?)
     {
-        if segue.destination is RequirementsViewController
+        if (segue.destination is RequirementsViewController)
         {
             let vc = segue.destination as? RequirementsViewController
             vc?.selectedBelt = selectedBelt
+        } else {
+            if (segue.destination is PatternsViewController) {
+                
+                let vc = segue.destination as? PatternsViewController
+                vc?.selectedBelt = selectedBelt
+            }
         }
     }
     
