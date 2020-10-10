@@ -26,8 +26,8 @@ class PatternsViewController: UIViewController, UITableViewDelegate, UITableView
        
         self.title = "Patterns"
         
-        let lightGreenColor = UIColor(red: 189.0/255.0, green: 234.0/255.0, blue: 167.0/255.0, alpha: 1.0)
-        self.view.backgroundColor = lightGreenColor
+        let lightGreenColor = UIColor(red: 189.0/255.0, green: 234.0/255.0, blue: 167.0/255.0, alpha: 0.8)
+//        self.view.backgroundColor = lightGreenColor
         
 //        // Register the table view cell class and its reuse id
 //        self.tableView.register(UITableViewCell.self, forCellReuseIdentifier: cellReuseIdentifier)
@@ -36,7 +36,7 @@ class PatternsViewController: UIViewController, UITableViewDelegate, UITableView
         self.tableView.tableFooterView = UIView(frame: .zero)
         
         self.tableView.separatorStyle = .none
-        self.tableView.backgroundColor = .clear
+        self.tableView.backgroundColor = lightGreenColor
         
         tableView.contentInset = UIEdgeInsets(top: 20.0, left: 0.0, bottom: 0.0, right: 0.0)
         tableView.rowHeight = UITableView.automaticDimension
