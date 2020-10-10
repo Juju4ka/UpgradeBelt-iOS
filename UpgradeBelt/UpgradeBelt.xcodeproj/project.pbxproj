@@ -69,8 +69,9 @@
 		A38F7AB9244346E600CFDC1C /* UBGradingMaterial.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38F7AB7244346E600CFDC1C /* UBGradingMaterial.swift */; };
 		A38F7ABC244347EC00CFDC1C /* UBDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38F7ABB244347EC00CFDC1C /* UBDataStore.swift */; };
 		A38F7ABD244347EC00CFDC1C /* UBDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38F7ABB244347EC00CFDC1C /* UBDataStore.swift */; };
-		A38F7AC22448837600CFDC1C /* GradingMaterialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38F7AC12448837600CFDC1C /* GradingMaterialViewController.swift */; };
 		A3CCD4F024C661A400BB160D /* CoyoteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CCD4EF24C661A400BB160D /* CoyoteButton.swift */; };
+		A3D3E710252B9AA9007F5735 /* PatternTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D3E70F252B9AA9007F5735 /* PatternTableViewCell.swift */; };
+		A3D3E72625320C29007F5735 /* GradingMaterialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D3E72525320C29007F5735 /* GradingMaterialViewController.swift */; };
 		A3DFD5BC250FCF640086A829 /* UBGradingRequirement.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3DFD5BB250FCF640086A829 /* UBGradingRequirement.swift */; };
 /* End PBXBuildFile section */
 
@@ -155,8 +156,9 @@
 		A38F7AB42443366700CFDC1C /* UBGradingItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UBGradingItem.swift; sourceTree = "<group>"; };
 		A38F7AB7244346E600CFDC1C /* UBGradingMaterial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UBGradingMaterial.swift; sourceTree = "<group>"; };
 		A38F7ABB244347EC00CFDC1C /* UBDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UBDataStore.swift; sourceTree = "<group>"; };
-		A38F7AC12448837600CFDC1C /* GradingMaterialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradingMaterialViewController.swift; sourceTree = "<group>"; };
 		A3CCD4EF24C661A400BB160D /* CoyoteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoyoteButton.swift; sourceTree = "<group>"; };
+		A3D3E70F252B9AA9007F5735 /* PatternTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternTableViewCell.swift; sourceTree = "<group>"; };
+		A3D3E72525320C29007F5735 /* GradingMaterialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradingMaterialViewController.swift; sourceTree = "<group>"; };
 		A3DFD5BB250FCF640086A829 /* UBGradingRequirement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UBGradingRequirement.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -188,10 +190,11 @@
 		A354F21E250AEC20001A5E0E /* GradingMaterial */ = {
 			isa = PBXGroup;
 			children = (
-				A38F7AC12448837600CFDC1C /* GradingMaterialViewController.swift */,
+				A3D3E72525320C29007F5735 /* GradingMaterialViewController.swift */,
 				A354F218250AE8D5001A5E0E /* RequirementsViewController.swift */,
 				A354F21A250AEBFC001A5E0E /* PatternsViewController.swift */,
 				A354F21C250AEC10001A5E0E /* TerminologyViewController.swift */,
+				A3D3E70F252B9AA9007F5735 /* PatternTableViewCell.swift */,
 			);
 			path = GradingMaterial;
 			sourceTree = "<group>";
@@ -518,12 +521,13 @@
 				A38F7AAC2443264500CFDC1C /* UBTerminologyItem.swift in Sources */,
 				A354F21D250AEC10001A5E0E /* TerminologyViewController.swift in Sources */,
 				A38F7AB2244335FC00CFDC1C /* UBGradingPattern.swift in Sources */,
+				A3D3E72625320C29007F5735 /* GradingMaterialViewController.swift in Sources */,
 				A36BE82B244212A40025F302 /* SecondViewController.swift in Sources */,
 				A38F7ABC244347EC00CFDC1C /* UBDataStore.swift in Sources */,
 				A38F7AB52443366700CFDC1C /* UBGradingItem.swift in Sources */,
 				A36BE829244212A40025F302 /* FirstViewController.swift in Sources */,
+				A3D3E710252B9AA9007F5735 /* PatternTableViewCell.swift in Sources */,
 				A36BE825244212A40025F302 /* AppDelegate.swift in Sources */,
-				A38F7AC22448837600CFDC1C /* GradingMaterialViewController.swift in Sources */,
 				A3CCD4F024C661A400BB160D /* CoyoteButton.swift in Sources */,
 				A389B76424AD44A4006B673D /* GradientBackgroundView.swift in Sources */,
 				A38F7AB8244346E600CFDC1C /* UBGradingMaterial.swift in Sources */,
