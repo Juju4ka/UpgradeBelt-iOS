@@ -149,11 +149,14 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
         // create a new cell if needed or reuse an old one
         let cell:UITableViewCell = self.tableView.dequeueReusableCell(withIdentifier: cellReuseIdentifier)!
         
-        // set the text from the data model
         let gradingItems = self.tableData[indexPath.section]
-        let gradingItem = gradingItems[indexPath.row] as UBGradingItem
+        let gradingItem = gradingItems[indexPath.row] as UBGradingItem        
         
+        // set the text from the data model
+        cell.textLabel?.lineBreakMode = .byWordWrapping
+        cell.textLabel?.numberOfLines = 0
         cell.textLabel?.text = gradingItem.grade
+        
 //        cell.textLabel?.font = UIFont(name: "BookAntiqua", size: 20)
         
         cell.imageView?.frame = CGRect(x: 0, y: 0, width: 152, height: 35)
