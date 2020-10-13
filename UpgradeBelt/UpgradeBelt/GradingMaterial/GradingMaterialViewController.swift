@@ -70,8 +70,7 @@ class GradingMaterialViewController: UIViewController, UITableViewDelegate, UITa
     
      // make the table view cells totally transparent
         func tableView(_ tableView: UITableView, willDisplay cell: UITableViewCell, forRowAt indexPath: IndexPath) {
-            cell.backgroundColor = .clear
-    //        cell.contentView.backgroundColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 0.5)
+            cell.backgroundColor = .clear    
         }
         
         // number of sections in table view
@@ -99,7 +98,6 @@ class GradingMaterialViewController: UIViewController, UITableViewDelegate, UITa
             
             let label = UILabel(frame: CGRect(x: 30, y: 22, width: tableView.frame.size.width, height: 35))
             label.text = selectedBelt?.grade
-//            label.font = UIFont(name: "BookAntiqua", size: 23)
             label.font = UIFont.boldSystemFont(ofSize: 20)
             view.addSubview(label)
             
@@ -118,30 +116,7 @@ class GradingMaterialViewController: UIViewController, UITableViewDelegate, UITa
             // create a new cell if needed or reuse an old one
             let cell:UITableViewCell = self.tableView.dequeueReusableCell(withIdentifier: cellReuseIdentifier)!
             
-//            let view = UIView(frame: CGRect(x: 20, y: 20, width: tableView.frame.size.width-40, height: 80))
-//
-//            cell.addSubview(view)
-//
-////            view.layer.cornerRadius = 10
-////            view.backgroundColor = .lightGray
-//
-//            let imageView = UIImageView(frame: CGRect(x: 32, y: 10, width: 50, height: 50))
-//            imageView.contentMode = .scaleAspectFit
-//            let image = UIImage(named: self.thumbnails[indexPath.row])
-//            imageView.image = image
-//
-//            view.addSubview(imageView)
-//
-//            let labelView = UILabel(frame: CGRect(x: 133, y: 20, width: cell.frame.size.width, height: 26))
-//            labelView.text = self.gradingSections[indexPath.row]
-//            labelView.font = UIFont(name: "BookAntiqua", size: 18)
-//            view.addSubview(labelView)
-//
-            
             cell.textLabel?.text = self.gradingSections[indexPath.row]
-//            cell.textLabel?.font = UIFont(name: "BookAntiqua", size: 20)
-            
-//            cell.imageView?.frame = CGRect(x: 0, y: 0, width: 50, height: 50)
             cell.imageView?.image = UIImage(named: self.thumbnails[indexPath.row])
             cell.imageView?.contentMode = .scaleAspectFit
             
