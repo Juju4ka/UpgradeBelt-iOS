@@ -194,11 +194,27 @@
                     <view key="view" contentMode="scaleToFill" id="4HY-K3-r2O">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ITy-MK-JEx">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Terminology" id="NsZ-Vw-bBO">
+                                        <barButtonItem key="rightBarButtonItem" style="done" systemItem="done" id="1pa-03-KTE">
+                                            <connections>
+                                                <segue destination="1Ff-wB-MdY" kind="unwind" unwindAction="myUnwindActionWithUnwindSegue:" id="mnR-kg-IDq"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
+                                </items>
+                            </navigationBar>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="IOQ-e8-VSz"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vk0-2h-b0h" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="1Ff-wB-MdY" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="4200.8000000000002" y="-74.212893553223395"/>
         </scene>
