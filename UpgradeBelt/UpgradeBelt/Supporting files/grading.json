@@ -9,9 +9,10 @@
                        {"id":"0","name":"Parallel Stance Punch (10 times)", "patternId":null, "description": null},
                        {"id":"1","name":"Front Rising Kick (10 times each leg)", "patternId":null, "description": null},
                        {"id":"2","name":"4 Directional Punch Saju Jirugi", "patternId":"0", "description": null},
-                       {"id":"3","name":"Press Ups (10)", "patternId":null, "description": null},
-                       {"id":"4","name":"3-step alone (prearranged) Sambo Yakok Matsogi", "patternId":null, "description":""},
-                       {"id":"5","name":"Terminology & History", "patternId":null, "description":""}],
+                       {"id":"3","name":"4 Directional Block Saju Maki", "patternId":"1", "description": null},
+                       {"id":"4","name":"Press Ups (10)", "patternId":null, "description": null},
+                       {"id":"5","name":"3-step alone (prearranged) Sambo Yakok Matsogi", "patternId":null, "description":""},
+                       {"id":"6","name":"Terminology & History", "patternId":null, "description":""}],
                    "patterns": [
                                 {
                                 "id": "0",
