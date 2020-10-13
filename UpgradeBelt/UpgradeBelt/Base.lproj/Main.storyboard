@@ -84,7 +84,13 @@
                                     <constraint firstAttribute="height" constant="44" id="Rtd-Uc-r3x"/>
                                 </constraints>
                                 <items>
-                                    <navigationItem title="Patterns" id="o99-KB-xEm"/>
+                                    <navigationItem title="Patterns" id="o99-KB-xEm">
+                                        <barButtonItem key="rightBarButtonItem" style="done" systemItem="done" id="U2e-6H-C6g">
+                                            <connections>
+                                                <segue destination="ijC-PX-9Sa" kind="unwind" unwindAction="myUnwindActionWithUnwindSegue:" id="Wku-Xr-zaX"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
                                 </items>
                             </navigationBar>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="X3f-Rq-ovT">
@@ -177,6 +183,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Prn-1X-XUA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="ijC-PX-9Sa" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="3325.5999999999999" y="-71.514242878560722"/>
         </scene>
@@ -206,7 +213,13 @@
                             <navigationBar contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZsD-ZS-M1C">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="56"/>
                                 <items>
-                                    <navigationItem title="Requirements" id="O6D-qA-eMk"/>
+                                    <navigationItem title="Requirements" id="O6D-qA-eMk">
+                                        <barButtonItem key="rightBarButtonItem" style="done" systemItem="done" id="V3O-9X-zlK">
+                                            <connections>
+                                                <segue destination="5x2-t0-6g2" kind="unwind" unwindAction="myUnwindActionWithUnwindSegue:" id="rzP-T1-Hxi"/>
+                                            </connections>
+                                        </barButtonItem>
+                                    </navigationItem>
                                 </items>
                             </navigationBar>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xqy-zm-4WN">
@@ -251,6 +264,7 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7UA-iE-23O" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <exit id="5x2-t0-6g2" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
             <point key="canvasLocation" x="3324" y="-745.27736131934034"/>
         </scene>

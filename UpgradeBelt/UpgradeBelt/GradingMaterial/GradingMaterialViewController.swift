@@ -47,15 +47,15 @@ class GradingMaterialViewController: UIViewController, UITableViewDelegate, UITa
         let gradientView = GradientBackgroundView()
         self.tableView.backgroundView = gradientView
         
-//        let backgroundImage = UIImage.init(named: "background")
-//        let imageView = UIImageView(image: backgroundImage)
-//        imageView.contentMode = .scaleAspectFill
-//        self.tableView.backgroundView = imageView
-        
         tableView.bounces = false
         tableView.isScrollEnabled = false
         
         configureTableHeaderView()
+    }
+    
+    // The presence of an unwind segue action method tells UIKit that a view controller is a potential destination for an unwind segue.
+    // https://developer.apple.com/documentation/uikit/resource_management/dismissing_a_view_controller_with_an_unwind_segue
+    @IBAction func myUnwindAction(unwindSegue: UIStoryboardSegue) {
     }
     
     func configureTableHeaderView() {
