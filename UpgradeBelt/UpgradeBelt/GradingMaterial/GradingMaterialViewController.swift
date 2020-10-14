@@ -116,6 +116,7 @@ class GradingMaterialViewController: UIViewController, UITableViewDelegate, UITa
             // create a new cell if needed or reuse an old one
             let cell:UITableViewCell = self.tableView.dequeueReusableCell(withIdentifier: cellReuseIdentifier)!
             
+            cell.accessoryType = .disclosureIndicator
             cell.textLabel?.text = self.gradingSections[indexPath.row]
             cell.imageView?.image = UIImage(named: self.thumbnails[indexPath.row])
             cell.imageView?.contentMode = .scaleAspectFit

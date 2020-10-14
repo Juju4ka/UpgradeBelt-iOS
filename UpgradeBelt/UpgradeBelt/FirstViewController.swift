@@ -149,6 +149,8 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
         // create a new cell if needed or reuse an old one
         let cell:UITableViewCell = self.tableView.dequeueReusableCell(withIdentifier: cellReuseIdentifier)!
         
+        cell.accessoryType = .disclosureIndicator
+        
         let gradingItems = self.tableData[indexPath.section]
         let gradingItem = gradingItems[indexPath.row] as UBGradingItem        
         
@@ -159,7 +161,7 @@ class FirstViewController: UIViewController, UITableViewDelegate, UITableViewDat
         
 //        cell.textLabel?.font = UIFont(name: "BookAntiqua", size: 20)
         
-        cell.imageView?.frame = CGRect(x: 0, y: 0, width: 152, height: 35)
+//        cell.imageView?.frame = CGRect(x: 0, y: 0, width: 152, height: 35)
         cell.imageView?.image = UIImage(named: gradingItem.iconName)
         cell.imageView?.contentMode = .scaleAspectFit
         

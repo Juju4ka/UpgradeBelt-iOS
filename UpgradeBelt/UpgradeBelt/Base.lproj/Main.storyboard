@@ -208,9 +208,25 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Y74-UY-eYW">
+                                <rect key="frame" x="0.0" y="54" width="375" height="593"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="dTp-eP-i3P">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="593"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" red="0.87218683959999999" green="0.97147184610000004" blue="0.8180131316" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="IOQ-e8-VSz"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="Y74-UY-eYW" firstAttribute="leading" secondItem="4HY-K3-r2O" secondAttribute="leading" id="goN-s4-MnC"/>
+                            <constraint firstItem="Y74-UY-eYW" firstAttribute="top" secondItem="4HY-K3-r2O" secondAttribute="top" constant="54" id="hWp-16-eny"/>
+                            <constraint firstAttribute="trailing" secondItem="Y74-UY-eYW" secondAttribute="trailing" id="rTV-2D-yH2"/>
+                            <constraint firstAttribute="bottom" secondItem="Y74-UY-eYW" secondAttribute="bottom" id="rWL-lb-VBG"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vk0-2h-b0h" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

@@ -22,39 +22,10 @@
 		A36BE84C244212A60025F302 /* UpgradeBeltUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36BE84B244212A60025F302 /* UpgradeBeltUITests.swift */; };
 		A36BE879244212F50025F302 /* grading.json in Resources */ = {isa = PBXBuildFile; fileRef = A36BE85A244212F50025F302 /* grading.json */; };
 		A36BE87A244212F50025F302 /* LaunchScreen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A36BE85B244212F50025F302 /* LaunchScreen.jpg */; };
-		A36BE87B244212F50025F302 /* black-tag@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A36BE85D244212F50025F302 /* black-tag@2x.png */; };
-		A36BE87C244212F50025F302 /* white-belt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A36BE85E244212F50025F302 /* white-belt@2x.png */; };
-		A36BE87D244212F50025F302 /* black-belt-4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A36BE85F244212F50025F302 /* black-belt-4@2x.png */; };
-		A36BE87E244212F50025F302 /* blue-belt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A36BE860244212F50025F302 /* blue-belt@2x.png */; };
-		A36BE87F244212F50025F302 /* blue-tag.png in Resources */ = {isa = PBXBuildFile; fileRef = A36BE861244212F50025F302 /* blue-tag.png */; };
-		A36BE880244212F50025F302 /* black-belt-2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A36BE862244212F50025F302 /* black-belt-2@2x.png */; };
-		A36BE881244212F50025F302 /* red-tag.png in Resources */ = {isa = PBXBuildFile; fileRef = A36BE863244212F50025F302 /* red-tag.png */; };
-		A36BE882244212F50025F302 /* green-belt.png in Resources */ = {isa = PBXBuildFile; fileRef = A36BE864244212F50025F302 /* green-belt.png */; };
-		A36BE883244212F50025F302 /* green-tag@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A36BE865244212F50025F302 /* green-tag@2x.png */; };
-		A36BE884244212F50025F302 /* red-tag@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A36BE866244212F50025F302 /* red-tag@2x.png */; };
-		A36BE885244212F50025F302 /* red-belt.png in Resources */ = {isa = PBXBuildFile; fileRef = A36BE867244212F50025F302 /* red-belt.png */; };
-		A36BE886244212F50025F302 /* black-belt-4.png in Resources */ = {isa = PBXBuildFile; fileRef = A36BE868244212F50025F302 /* black-belt-4.png */; };
-		A36BE887244212F50025F302 /* red-belt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A36BE869244212F50025F302 /* red-belt@2x.png */; };
-		A36BE888244212F50025F302 /* yellow-belt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A36BE86A244212F50025F302 /* yellow-belt@2x.png */; };
-		A36BE889244212F50025F302 /* yellow-belt.png in Resources */ = {isa = PBXBuildFile; fileRef = A36BE86B244212F50025F302 /* yellow-belt.png */; };
-		A36BE88A244212F50025F302 /* yellow-tag.png in Resources */ = {isa = PBXBuildFile; fileRef = A36BE86C244212F50025F302 /* yellow-tag.png */; };
-		A36BE88B244212F50025F302 /* black-belt-3.png in Resources */ = {isa = PBXBuildFile; fileRef = A36BE86D244212F50025F302 /* black-belt-3.png */; };
-		A36BE88C244212F50025F302 /* black-belt-2.png in Resources */ = {isa = PBXBuildFile; fileRef = A36BE86E244212F50025F302 /* black-belt-2.png */; };
-		A36BE88D244212F50025F302 /* blue-belt.png in Resources */ = {isa = PBXBuildFile; fileRef = A36BE86F244212F50025F302 /* blue-belt.png */; };
-		A36BE88E244212F50025F302 /* black-belt-1.png in Resources */ = {isa = PBXBuildFile; fileRef = A36BE870244212F50025F302 /* black-belt-1.png */; };
-		A36BE88F244212F50025F302 /* blue-tag@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A36BE871244212F50025F302 /* blue-tag@2x.png */; };
-		A36BE890244212F50025F302 /* black-belt-3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A36BE872244212F50025F302 /* black-belt-3@2x.png */; };
-		A36BE891244212F50025F302 /* yellow-tag@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A36BE873244212F50025F302 /* yellow-tag@2x.png */; };
-		A36BE892244212F50025F302 /* black-belt-1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A36BE874244212F50025F302 /* black-belt-1@2x.png */; };
-		A36BE893244212F50025F302 /* white-belt.png in Resources */ = {isa = PBXBuildFile; fileRef = A36BE875244212F50025F302 /* white-belt.png */; };
-		A36BE894244212F50025F302 /* green-tag.png in Resources */ = {isa = PBXBuildFile; fileRef = A36BE876244212F50025F302 /* green-tag.png */; };
-		A36BE895244212F50025F302 /* black-tag.png in Resources */ = {isa = PBXBuildFile; fileRef = A36BE877244212F50025F302 /* black-tag.png */; };
-		A36BE896244212F50025F302 /* green-belt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A36BE878244212F50025F302 /* green-belt@2x.png */; };
 		A389B75B24A27DE3006B673D /* ANTQUABI.TTF in Resources */ = {isa = PBXBuildFile; fileRef = A389B75724A27DE3006B673D /* ANTQUABI.TTF */; };
 		A389B75C24A27DE3006B673D /* ANTQUAB.TTF in Resources */ = {isa = PBXBuildFile; fileRef = A389B75824A27DE3006B673D /* ANTQUAB.TTF */; };
 		A389B75D24A27DE3006B673D /* BKANT.TTF in Resources */ = {isa = PBXBuildFile; fileRef = A389B75924A27DE3006B673D /* BKANT.TTF */; };
 		A389B75E24A27DE3006B673D /* ANTQUAI.TTF in Resources */ = {isa = PBXBuildFile; fileRef = A389B75A24A27DE3006B673D /* ANTQUAI.TTF */; };
-		A389B76024A7FE98006B673D /* backbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = A389B75F24A7FE98006B673D /* backbutton.png */; };
 		A389B76424AD44A4006B673D /* GradientBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A389B76324AD44A4006B673D /* GradientBackgroundView.swift */; };
 		A38F7AA724423D8600CFDC1C /* belt-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A38F7AA424423D8600CFDC1C /* belt-icon.png */; };
 		A38F7AA824423D8600CFDC1C /* belt-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A38F7AA524423D8600CFDC1C /* belt-icon@2x.png */; };
@@ -114,39 +85,10 @@
 		A36BE84D244212A60025F302 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A36BE85A244212F50025F302 /* grading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = grading.json; sourceTree = "<group>"; };
 		A36BE85B244212F50025F302 /* LaunchScreen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LaunchScreen.jpg; sourceTree = "<group>"; };
-		A36BE85D244212F50025F302 /* black-tag@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "black-tag@2x.png"; sourceTree = "<group>"; };
-		A36BE85E244212F50025F302 /* white-belt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "white-belt@2x.png"; sourceTree = "<group>"; };
-		A36BE85F244212F50025F302 /* black-belt-4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "black-belt-4@2x.png"; sourceTree = "<group>"; };
-		A36BE860244212F50025F302 /* blue-belt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue-belt@2x.png"; sourceTree = "<group>"; };
-		A36BE861244212F50025F302 /* blue-tag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue-tag.png"; sourceTree = "<group>"; };
-		A36BE862244212F50025F302 /* black-belt-2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "black-belt-2@2x.png"; sourceTree = "<group>"; };
-		A36BE863244212F50025F302 /* red-tag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red-tag.png"; sourceTree = "<group>"; };
-		A36BE864244212F50025F302 /* green-belt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "green-belt.png"; sourceTree = "<group>"; };
-		A36BE865244212F50025F302 /* green-tag@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "green-tag@2x.png"; sourceTree = "<group>"; };
-		A36BE866244212F50025F302 /* red-tag@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red-tag@2x.png"; sourceTree = "<group>"; };
-		A36BE867244212F50025F302 /* red-belt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red-belt.png"; sourceTree = "<group>"; };
-		A36BE868244212F50025F302 /* black-belt-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "black-belt-4.png"; sourceTree = "<group>"; };
-		A36BE869244212F50025F302 /* red-belt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "red-belt@2x.png"; sourceTree = "<group>"; };
-		A36BE86A244212F50025F302 /* yellow-belt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yellow-belt@2x.png"; sourceTree = "<group>"; };
-		A36BE86B244212F50025F302 /* yellow-belt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yellow-belt.png"; sourceTree = "<group>"; };
-		A36BE86C244212F50025F302 /* yellow-tag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yellow-tag.png"; sourceTree = "<group>"; };
-		A36BE86D244212F50025F302 /* black-belt-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "black-belt-3.png"; sourceTree = "<group>"; };
-		A36BE86E244212F50025F302 /* black-belt-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "black-belt-2.png"; sourceTree = "<group>"; };
-		A36BE86F244212F50025F302 /* blue-belt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue-belt.png"; sourceTree = "<group>"; };
-		A36BE870244212F50025F302 /* black-belt-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "black-belt-1.png"; sourceTree = "<group>"; };
-		A36BE871244212F50025F302 /* blue-tag@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blue-tag@2x.png"; sourceTree = "<group>"; };
-		A36BE872244212F50025F302 /* black-belt-3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "black-belt-3@2x.png"; sourceTree = "<group>"; };
-		A36BE873244212F50025F302 /* yellow-tag@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "yellow-tag@2x.png"; sourceTree = "<group>"; };
-		A36BE874244212F50025F302 /* black-belt-1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "black-belt-1@2x.png"; sourceTree = "<group>"; };
-		A36BE875244212F50025F302 /* white-belt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "white-belt.png"; sourceTree = "<group>"; };
-		A36BE876244212F50025F302 /* green-tag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "green-tag.png"; sourceTree = "<group>"; };
-		A36BE877244212F50025F302 /* black-tag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "black-tag.png"; sourceTree = "<group>"; };
-		A36BE878244212F50025F302 /* green-belt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "green-belt@2x.png"; sourceTree = "<group>"; };
 		A389B75724A27DE3006B673D /* ANTQUABI.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = ANTQUABI.TTF; sourceTree = "<group>"; };
 		A389B75824A27DE3006B673D /* ANTQUAB.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = ANTQUAB.TTF; sourceTree = "<group>"; };
 		A389B75924A27DE3006B673D /* BKANT.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = BKANT.TTF; sourceTree = "<group>"; };
 		A389B75A24A27DE3006B673D /* ANTQUAI.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = ANTQUAI.TTF; sourceTree = "<group>"; };
-		A389B75F24A7FE98006B673D /* backbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = backbutton.png; path = "UpgradeBelt/Supporting files/images/backbutton.png"; sourceTree = SOURCE_ROOT; };
 		A389B76324AD44A4006B673D /* GradientBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBackgroundView.swift; sourceTree = "<group>"; };
 		A38F7AA424423D8600CFDC1C /* belt-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "belt-icon.png"; sourceTree = "<group>"; };
 		A38F7AA524423D8600CFDC1C /* belt-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "belt-icon@2x.png"; sourceTree = "<group>"; };
@@ -272,38 +214,9 @@
 		A36BE85C244212F50025F302 /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				A389B75F24A7FE98006B673D /* backbutton.png */,
 				A38F7AA424423D8600CFDC1C /* belt-icon.png */,
 				A38F7AA524423D8600CFDC1C /* belt-icon@2x.png */,
 				A38F7AA624423D8600CFDC1C /* belt-icon@3x.png */,
-				A36BE85D244212F50025F302 /* black-tag@2x.png */,
-				A36BE85E244212F50025F302 /* white-belt@2x.png */,
-				A36BE85F244212F50025F302 /* black-belt-4@2x.png */,
-				A36BE860244212F50025F302 /* blue-belt@2x.png */,
-				A36BE861244212F50025F302 /* blue-tag.png */,
-				A36BE862244212F50025F302 /* black-belt-2@2x.png */,
-				A36BE863244212F50025F302 /* red-tag.png */,
-				A36BE864244212F50025F302 /* green-belt.png */,
-				A36BE865244212F50025F302 /* green-tag@2x.png */,
-				A36BE866244212F50025F302 /* red-tag@2x.png */,
-				A36BE867244212F50025F302 /* red-belt.png */,
-				A36BE868244212F50025F302 /* black-belt-4.png */,
-				A36BE869244212F50025F302 /* red-belt@2x.png */,
-				A36BE86A244212F50025F302 /* yellow-belt@2x.png */,
-				A36BE86B244212F50025F302 /* yellow-belt.png */,
-				A36BE86C244212F50025F302 /* yellow-tag.png */,
-				A36BE86D244212F50025F302 /* black-belt-3.png */,
-				A36BE86E244212F50025F302 /* black-belt-2.png */,
-				A36BE86F244212F50025F302 /* blue-belt.png */,
-				A36BE870244212F50025F302 /* black-belt-1.png */,
-				A36BE871244212F50025F302 /* blue-tag@2x.png */,
-				A36BE872244212F50025F302 /* black-belt-3@2x.png */,
-				A36BE873244212F50025F302 /* yellow-tag@2x.png */,
-				A36BE874244212F50025F302 /* black-belt-1@2x.png */,
-				A36BE875244212F50025F302 /* white-belt.png */,
-				A36BE876244212F50025F302 /* green-tag.png */,
-				A36BE877244212F50025F302 /* black-tag.png */,
-				A36BE878244212F50025F302 /* green-belt@2x.png */,
 			);
 			path = Images;
 			sourceTree = "<group>";
@@ -452,46 +365,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A36BE88C244212F50025F302 /* black-belt-2.png in Resources */,
-				A36BE88B244212F50025F302 /* black-belt-3.png in Resources */,
 				A36BE879244212F50025F302 /* grading.json in Resources */,
-				A36BE882244212F50025F302 /* green-belt.png in Resources */,
-				A36BE896244212F50025F302 /* green-belt@2x.png in Resources */,
 				A38F7AA724423D8600CFDC1C /* belt-icon.png in Resources */,
-				A36BE889244212F50025F302 /* yellow-belt.png in Resources */,
-				A36BE892244212F50025F302 /* black-belt-1@2x.png in Resources */,
-				A36BE895244212F50025F302 /* black-tag.png in Resources */,
-				A36BE884244212F50025F302 /* red-tag@2x.png in Resources */,
-				A36BE87B244212F50025F302 /* black-tag@2x.png in Resources */,
-				A36BE88E244212F50025F302 /* black-belt-1.png in Resources */,
 				A389B75E24A27DE3006B673D /* ANTQUAI.TTF in Resources */,
 				A389B75B24A27DE3006B673D /* ANTQUABI.TTF in Resources */,
-				A36BE894244212F50025F302 /* green-tag.png in Resources */,
-				A36BE881244212F50025F302 /* red-tag.png in Resources */,
-				A36BE87D244212F50025F302 /* black-belt-4@2x.png in Resources */,
-				A36BE880244212F50025F302 /* black-belt-2@2x.png in Resources */,
-				A36BE891244212F50025F302 /* yellow-tag@2x.png in Resources */,
 				A36BE87A244212F50025F302 /* LaunchScreen.jpg in Resources */,
-				A36BE87F244212F50025F302 /* blue-tag.png in Resources */,
-				A36BE87E244212F50025F302 /* blue-belt@2x.png in Resources */,
 				A36BE836244212A50025F302 /* LaunchScreen.storyboard in Resources */,
-				A36BE88F244212F50025F302 /* blue-tag@2x.png in Resources */,
 				A389B75C24A27DE3006B673D /* ANTQUAB.TTF in Resources */,
-				A389B76024A7FE98006B673D /* backbutton.png in Resources */,
-				A36BE890244212F50025F302 /* black-belt-3@2x.png in Resources */,
 				A36BE833244212A50025F302 /* Assets.xcassets in Resources */,
-				A36BE893244212F50025F302 /* white-belt.png in Resources */,
-				A36BE883244212F50025F302 /* green-tag@2x.png in Resources */,
 				A389B75D24A27DE3006B673D /* BKANT.TTF in Resources */,
 				A38F7AA824423D8600CFDC1C /* belt-icon@2x.png in Resources */,
-				A36BE886244212F50025F302 /* black-belt-4.png in Resources */,
-				A36BE888244212F50025F302 /* yellow-belt@2x.png in Resources */,
-				A36BE88A244212F50025F302 /* yellow-tag.png in Resources */,
-				A36BE87C244212F50025F302 /* white-belt@2x.png in Resources */,
 				A38F7AA924423D8600CFDC1C /* belt-icon@3x.png in Resources */,
-				A36BE88D244212F50025F302 /* blue-belt.png in Resources */,
-				A36BE887244212F50025F302 /* red-belt@2x.png in Resources */,
-				A36BE885244212F50025F302 /* red-belt.png in Resources */,
 				A36BE82E244212A40025F302 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
