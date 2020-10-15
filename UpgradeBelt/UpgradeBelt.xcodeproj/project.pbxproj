@@ -129,14 +129,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A31EABA725383FA30009B018 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A3D3E70F252B9AA9007F5735 /* PatternTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		A354F21E250AEC20001A5E0E /* GradingMaterial */ = {
 			isa = PBXGroup;
 			children = (
+				A31EABA725383FA30009B018 /* Views */,
 				A3D3E72525320C29007F5735 /* GradingMaterialViewController.swift */,
 				A354F218250AE8D5001A5E0E /* RequirementsViewController.swift */,
 				A354F21A250AEBFC001A5E0E /* PatternsViewController.swift */,
 				A354F21C250AEC10001A5E0E /* TerminologyViewController.swift */,
-				A3D3E70F252B9AA9007F5735 /* PatternTableViewCell.swift */,
 			);
 			path = GradingMaterial;
 			sourceTree = "<group>";
