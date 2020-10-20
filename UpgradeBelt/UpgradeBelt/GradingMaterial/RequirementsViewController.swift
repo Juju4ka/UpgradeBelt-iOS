@@ -21,7 +21,7 @@ class RequirementsViewController: UIViewController, UITableViewDelegate, UITable
         
     @IBOutlet var backgroundView: UIView!    
     @IBOutlet var tableView: UITableView!
-    @IBOutlet var tableHeightConstraint: NSLayoutConstraint!
+    @IBOutlet var containerView: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,13 +33,15 @@ class RequirementsViewController: UIViewController, UITableViewDelegate, UITable
         let lightGreenColor = UIColor(red: 189.0/255.0, green: 234.0/255.0, blue: 167.0/255.0, alpha: 0.8)
         self.backgroundView.backgroundColor = lightGreenColor
         
+        self.containerView.backgroundColor = .clear
+        self.containerView.layer.cornerRadius = 10
+        self.containerView.layer.masksToBounds = true
+        
         // Register the table view cell class and its reuse id
         self.tableView.register(UITableViewCell.self, forCellReuseIdentifier: cellReuseIdentifier)
 
         self.tableView.backgroundColor = .white
-        
         self.tableView.layer.cornerRadius = 10
-        self.tableView.layer.masksToBounds = true
         self.tableView.allowsSelection = false
         
         // no lines where there aren't cells
@@ -50,25 +52,18 @@ class RequirementsViewController: UIViewController, UITableViewDelegate, UITable
     }
     
     override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
+
+        let contentHeight = self.tableView.contentSize.height
         
-        if (self.tableView.contentSize.height < self.tableView.frame.size.height) {
-            self.tableView.isScrollEnabled = false
-        } else {
-            self.tableView.isScrollEnabled = true
-        }
+        let height = (contentHeight < self.containerView.frame.size.height) ? contentHeight : self.containerView.frame.size.height
         
-        tableHeightConstraint.constant = self.tableView.contentSize.height + 50
-        self.tableView.layoutIfNeeded()
+        self.tableView.frame = CGRect(x: self.tableView.frame.origin.x, y: 0, width: self.tableView.frame.size.width, height: height)
     }
     
     // TableView Delegate
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return requirements.count
-    }
-    
-    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 60
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -82,10 +77,10 @@ class RequirementsViewController: UIViewController, UITableViewDelegate, UITable
         cell.imageView?.contentMode = .scaleAspectFit
         
         cell.textLabel?.text = requirement.name
+        cell.textLabel?.font = .systemFont(ofSize: 15.0)
         cell.textLabel?.numberOfLines = 0
         
         cell.backgroundColor = .clear
-//        cell.separatorInset = UIEdgeInsets(top: 2, left: cell.separatorInset.left, bottom: 0, right: 0)
         
         return cell
     }

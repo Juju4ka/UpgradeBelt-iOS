@@ -155,6 +155,12 @@ class GradingMaterialViewController: UIViewController, UITableViewDelegate, UITa
                 
                 let vc = segue.destination as? PatternsViewController
                 vc?.selectedBelt = selectedBelt
+            } else {
+                if (segue.destination is TerminologyViewController) {
+                    
+                    let vc = segue.destination as? TerminologyViewController
+                    vc?.selectedBelt = selectedBelt
+                }
             }
         }
     }
