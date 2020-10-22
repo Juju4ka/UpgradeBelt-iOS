@@ -56,9 +56,7 @@
                         <viewLayoutGuide key="safeArea" id="F3D-jZ-nlA"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Grading Material" id="7ZP-cE-aH1">
-                        <barButtonItem key="rightBarButtonItem" title="Quiz" id="Duf-gR-Q10"/>
-                    </navigationItem>
+                    <navigationItem key="navigationItem" title="Grading Material" id="7ZP-cE-aH1"/>
                     <connections>
                         <outlet property="tableView" destination="mdn-As-P3c" id="1FJ-rj-fBj"/>
                         <segue destination="LyO-7O-U8t" kind="presentation" identifier="SegueFromGradingMaterialToRequirements" id="mcm-Cl-V62"/>
