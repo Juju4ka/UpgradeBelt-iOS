@@ -63,6 +63,8 @@ class PatternsViewController: UIViewController, UITableViewDelegate, UITableView
         let cell = self.tableView.dequeueReusableCell(withIdentifier: "patternCell")! as! PatternTableViewCell
         let gradingPattern = self.selectedBelt?.gradingPatterns![indexPath.row]
         
+        cell.playButton.tag = indexPath.row
+                
         cell.customBackgroundView?.layer.cornerRadius = 8
         cell.customBackgroundView?.backgroundColor = .white
         
@@ -78,14 +80,28 @@ class PatternsViewController: UIViewController, UITableViewDelegate, UITableView
         cell.descriptionLabel?.text = gradingPattern?.meaning
         cell.descriptionLabel.sizeToFit()
         
-//
-//            let sizeThatFitsTextView = meaningTextView.sizeThatFits(CGSize(width: meaningTextView.frame.size.width, height: CGFloat(MAXFLOAT)))
-//            let heightOfText = sizeThatFitsTextView.height
-//
-//            print(heightOfText)
-//
-//        }
-        
         return cell
+    }
+    
+    // method to run when table view cell is tapped
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        
+        let gradingPattern = self.selectedBelt?.gradingPatterns![indexPath.row]
+        let url = URL(string: (gradingPattern?.videoLink)!)
+        self.openURL(url:url!)
+        tableView.deselectRow(at: indexPath, animated: false)
+    }
+    
+    @IBAction func playAction(_ sender:UIButton) {
+        let gradingPattern = self.selectedBelt?.gradingPatterns![sender.tag]
+        let url = URL(string: (gradingPattern?.videoLink)!)
+        self.openURL(url:url!)
+    }
+    
+    func openURL(url: URL) {
+        // for versions iOS 10 and above
+         if UIApplication.shared.canOpenURL(url) {
+            UIApplication.shared.open(url, options: [:])
+         }
     }
 }
