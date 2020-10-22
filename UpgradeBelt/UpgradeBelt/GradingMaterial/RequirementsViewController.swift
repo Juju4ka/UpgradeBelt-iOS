@@ -57,7 +57,7 @@ class RequirementsViewController: UIViewController, UITableViewDelegate, UITable
         
         let height = (contentHeight < self.containerView.frame.size.height) ? contentHeight : self.containerView.frame.size.height
         
-        self.tableView.frame = CGRect(x: self.tableView.frame.origin.x, y: 0, width: self.tableView.frame.size.width, height: height)
+        self.tableView.frame = CGRect(x: 0.0, y: 0.0, width: self.tableView.frame.size.width, height: height)        
     }
     
     // TableView Delegate

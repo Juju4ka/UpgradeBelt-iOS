@@ -354,8 +354,9 @@
                                         <rect key="frame" x="15" y="15" width="382" height="753"/>
                                         <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxX="YES" heightSizable="YES" flexibleMaxY="YES"/>
                                         <subviews>
-                                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="lbX-QH-pf9">
+                                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="lbX-QH-pf9">
                                                 <rect key="frame" x="0.0" y="0.0" width="382" height="753"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <connections>
                                                     <outlet property="dataSource" destination="LyO-7O-U8t" id="Kjz-BJ-j6J"/>
@@ -364,12 +365,6 @@
                                             </tableView>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                        <constraints>
-                                            <constraint firstItem="lbX-QH-pf9" firstAttribute="leading" secondItem="d7I-WJ-WTT" secondAttribute="leading" id="OAN-hW-rsh"/>
-                                            <constraint firstAttribute="bottom" secondItem="lbX-QH-pf9" secondAttribute="bottom" id="aMc-iQ-KKD"/>
-                                            <constraint firstItem="lbX-QH-pf9" firstAttribute="top" secondItem="d7I-WJ-WTT" secondAttribute="top" id="dhP-nc-BRr"/>
-                                            <constraint firstAttribute="trailing" secondItem="lbX-QH-pf9" secondAttribute="trailing" id="wiR-xy-aQ8"/>
-                                        </constraints>
                                     </view>
                                 </subviews>
                                 <color key="backgroundColor" red="0.87218683959999999" green="0.97147184610000004" blue="0.8180131316" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

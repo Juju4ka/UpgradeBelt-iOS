@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "Belts-1 (24).png",
+      "filename" : "Belts (2).png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "Belts-1 (25).png",
+      "filename" : "Belts (1).png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "Belts-1 (25)-1.png",
+      "filename" : "Belts.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
