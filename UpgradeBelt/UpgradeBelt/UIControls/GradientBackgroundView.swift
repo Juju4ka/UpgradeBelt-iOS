@@ -45,7 +45,7 @@ class GradientBackgroundView : UIView {
         context.drawPath(using: .fillStroke)
 
         let basicDeltaXUpper1 = -40
-        let basicDeltaYUpper1 = 0
+        let basicDeltaYUpper1 = -20
         
         let basicDeltaXUpper2 = 25
         let basicDeltaYUpper2 = -147
@@ -56,8 +56,8 @@ class GradientBackgroundView : UIView {
         let basicDeltaXLower2 = 319
         let basicDeltaYLower2 = 127
         
-        let basicWidthSmall = 194
-        let basicHeightSmall = 194
+        let basicWidthSmall = 204
+        let basicHeightSmall = 204
         let basicWidthLarge = 294
         let basicHeightLarge = 294
         
