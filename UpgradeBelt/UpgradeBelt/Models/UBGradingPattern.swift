@@ -13,12 +13,14 @@ struct UBGradingPattern : Codable {
     let name: String?
     let movements: Int?
     let meaning: String?
+    let videoLink: String?
     
     enum CodingKeys: String, CodingKey {
         case identifier = "id"
         case name = "name"
         case movements = "movements"
         case meaning = "meaning"
+        case videoLink = "videoLink"
     }
     
     init(from decoder: Decoder) throws {
@@ -27,6 +29,7 @@ struct UBGradingPattern : Codable {
         self.name = try container.decode(String.self, forKey: .name)
         self.movements = try container.decode(Int.self, forKey: .movements)
         self.meaning = try container.decode(String.self, forKey: .meaning)
+        self.videoLink = try container.decode(String.self, forKey: .videoLink)
     }
     
     func encode(to encoder: Encoder) throws {
@@ -35,5 +38,6 @@ struct UBGradingPattern : Codable {
         try container.encode(self.name, forKey: .name)
         try container.encode(self.movements, forKey: .movements)
         try container.encode(self.meaning, forKey: .meaning)
+        try container.encode(self.videoLink, forKey: .videoLink)
     }
 }
