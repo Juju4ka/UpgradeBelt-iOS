@@ -19,7 +19,7 @@ class SecondViewController: UIViewController, MFMailComposeViewControllerDelegat
         // Do any additional setup after loading the view.
                 
         textView.contentInset = .init(top: 0, left: 20, bottom: 0, right: 20)
-        textView.text = "Upgrade Belt app is created in order to help Taekwon-Do students to study the terminology and patterns of Taekwon-Do in preparation for grading.\n\nThe development of this app is run by volunteers.\n\nIf you'd like to contribute or support the project please contact us."
+        textView.text = "Upgrade Belt app is created in order to help Taekwon-Do students to study the terminology and patterns of Taekwon-Do in preparation for grading.\n\nIf you'd like to contribute or support the project please contact us."
     }
     
     func openURL(url: URL) {
