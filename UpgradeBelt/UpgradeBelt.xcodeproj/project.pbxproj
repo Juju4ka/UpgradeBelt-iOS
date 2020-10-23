@@ -21,7 +21,6 @@
 		A36BE841244212A60025F302 /* UpgradeBeltTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36BE840244212A60025F302 /* UpgradeBeltTests.swift */; };
 		A36BE84C244212A60025F302 /* UpgradeBeltUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A36BE84B244212A60025F302 /* UpgradeBeltUITests.swift */; };
 		A36BE879244212F50025F302 /* grading.json in Resources */ = {isa = PBXBuildFile; fileRef = A36BE85A244212F50025F302 /* grading.json */; };
-		A36BE87A244212F50025F302 /* LaunchScreen.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A36BE85B244212F50025F302 /* LaunchScreen.jpg */; };
 		A389B75B24A27DE3006B673D /* ANTQUABI.TTF in Resources */ = {isa = PBXBuildFile; fileRef = A389B75724A27DE3006B673D /* ANTQUABI.TTF */; };
 		A389B75C24A27DE3006B673D /* ANTQUAB.TTF in Resources */ = {isa = PBXBuildFile; fileRef = A389B75824A27DE3006B673D /* ANTQUAB.TTF */; };
 		A389B75D24A27DE3006B673D /* BKANT.TTF in Resources */ = {isa = PBXBuildFile; fileRef = A389B75924A27DE3006B673D /* BKANT.TTF */; };
@@ -85,7 +84,6 @@
 		A36BE84B244212A60025F302 /* UpgradeBeltUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpgradeBeltUITests.swift; sourceTree = "<group>"; };
 		A36BE84D244212A60025F302 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A36BE85A244212F50025F302 /* grading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = grading.json; sourceTree = "<group>"; };
-		A36BE85B244212F50025F302 /* LaunchScreen.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LaunchScreen.jpg; sourceTree = "<group>"; };
 		A389B75724A27DE3006B673D /* ANTQUABI.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = ANTQUABI.TTF; sourceTree = "<group>"; };
 		A389B75824A27DE3006B673D /* ANTQUAB.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = ANTQUAB.TTF; sourceTree = "<group>"; };
 		A389B75924A27DE3006B673D /* BKANT.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = BKANT.TTF; sourceTree = "<group>"; };
@@ -216,7 +214,6 @@
 			children = (
 				A389B75624A27DE3006B673D /* fonts */,
 				A36BE85A244212F50025F302 /* grading.json */,
-				A36BE85B244212F50025F302 /* LaunchScreen.jpg */,
 				A36BE85C244212F50025F302 /* Images */,
 			);
 			path = "Supporting files";
@@ -380,7 +377,6 @@
 				A38F7AA724423D8600CFDC1C /* belt-icon.png in Resources */,
 				A389B75E24A27DE3006B673D /* ANTQUAI.TTF in Resources */,
 				A389B75B24A27DE3006B673D /* ANTQUABI.TTF in Resources */,
-				A36BE87A244212F50025F302 /* LaunchScreen.jpg in Resources */,
 				A36BE836244212A50025F302 /* LaunchScreen.storyboard in Resources */,
 				A389B75C24A27DE3006B673D /* ANTQUAB.TTF in Resources */,
 				A36BE833244212A50025F302 /* Assets.xcassets in Resources */,
