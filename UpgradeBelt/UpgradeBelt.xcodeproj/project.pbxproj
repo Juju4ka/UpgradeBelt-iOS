@@ -40,6 +40,8 @@
 		A38F7ABC244347EC00CFDC1C /* UBDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38F7ABB244347EC00CFDC1C /* UBDataStore.swift */; };
 		A38F7ABD244347EC00CFDC1C /* UBDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A38F7ABB244347EC00CFDC1C /* UBDataStore.swift */; };
 		A398E472253F345100804727 /* TerminologyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A398E471253F345100804727 /* TerminologyTableViewCell.swift */; };
+		A3A593B825432FF2005E10FC /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3A593B725432FF2005E10FC /* StoreKit.framework */; };
+		A3A593BA2543301C005E10FC /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3A593B92543301C005E10FC /* GameKit.framework */; };
 		A3CCD4F024C661A400BB160D /* CoyoteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3CCD4EF24C661A400BB160D /* CoyoteButton.swift */; };
 		A3D3E710252B9AA9007F5735 /* PatternTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D3E70F252B9AA9007F5735 /* PatternTableViewCell.swift */; };
 		A3D3E72625320C29007F5735 /* GradingMaterialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3D3E72525320C29007F5735 /* GradingMaterialViewController.swift */; };
@@ -98,6 +100,8 @@
 		A38F7AB7244346E600CFDC1C /* UBGradingMaterial.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UBGradingMaterial.swift; sourceTree = "<group>"; };
 		A38F7ABB244347EC00CFDC1C /* UBDataStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UBDataStore.swift; sourceTree = "<group>"; };
 		A398E471253F345100804727 /* TerminologyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminologyTableViewCell.swift; sourceTree = "<group>"; };
+		A3A593B725432FF2005E10FC /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		A3A593B92543301C005E10FC /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
 		A3CCD4EF24C661A400BB160D /* CoyoteButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoyoteButton.swift; sourceTree = "<group>"; };
 		A3D3E70F252B9AA9007F5735 /* PatternTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternTableViewCell.swift; sourceTree = "<group>"; };
 		A3D3E72525320C29007F5735 /* GradingMaterialViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradingMaterialViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +113,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3A593B825432FF2005E10FC /* StoreKit.framework in Frameworks */,
+				A3A593BA2543301C005E10FC /* GameKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,6 +163,7 @@
 				A36BE83F244212A60025F302 /* UpgradeBeltTests */,
 				A36BE84A244212A60025F302 /* UpgradeBeltUITests */,
 				A36BE822244212A40025F302 /* Products */,
+				A3A593B625432FF2005E10FC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -267,6 +274,15 @@
 				A38F7ABB244347EC00CFDC1C /* UBDataStore.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		A3A593B625432FF2005E10FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A3A593B92543301C005E10FC /* GameKit.framework */,
+				A3A593B725432FF2005E10FC /* StoreKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
