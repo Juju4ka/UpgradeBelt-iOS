@@ -34,13 +34,28 @@ class GradientBackgroundView : UIView {
         self.layer.contentsScale = UIScreen.main.nativeScale
         
         //// Color Declarations
-        let darkGreenColor = UIColor(red: 78.0/255.0, green: 105.0/255.0, blue: 75.0/255.0, alpha: 1.0)
-        let lightGreenColor = UIColor(red: 189.0/255.0, green: 234.0/255.0, blue: 167.0/255.0, alpha: 1.0)
+        var darkGreenColor = UIColor(red: 78.0/255.0, green: 105.0/255.0, blue: 75.0/255.0, alpha: 1.0)
+        var lightGreenColor = UIColor(red: 189.0/255.0, green: 234.0/255.0, blue: 167.0/255.0, alpha: 1.0)
         
-        let darkOrangeColor = UIColor(red: 254.0/255.0, green: 142.0/255.0, blue: 31.0/255.0, alpha: 1.0)
-        let lightOrangeColor = UIColor(red: 253.0/255.0, green: 187.0/255.0, blue: 120.0/255.0, alpha: 1.0)
+        var darkOrangeColor = UIColor(red: 254.0/255.0, green: 142.0/255.0, blue: 31.0/255.0, alpha: 1.0)
+        var lightOrangeColor = UIColor(red: 253.0/255.0, green: 187.0/255.0, blue: 120.0/255.0, alpha: 1.0)
         
-        context.setFillColor(UIColor.white.cgColor)
+        var fillColor = UIColor.white.cgColor
+                
+        if (self.traitCollection.userInterfaceStyle == .dark) {
+            
+            //swap colours
+            // User Interface is Dark
+            fillColor = UIColor.gray.cgColor
+            
+            darkGreenColor = UIColor(red: 189.0/255.0, green: 234.0/255.0, blue: 167.0/255.0, alpha: 1.0)
+            lightGreenColor = UIColor(red: 78.0/255.0, green: 105.0/255.0, blue: 75.0/255.0, alpha: 1.0)
+            
+            darkOrangeColor = UIColor(red: 253.0/255.0, green: 187.0/255.0, blue: 120.0/255.0, alpha: 1.0)
+            lightOrangeColor = UIColor(red: 254.0/255.0, green: 142.0/255.0, blue: 31.0/255.0, alpha: 1.0)
+        }
+        
+        context.setFillColor(fillColor)
         context.addRect(rect)
         context.drawPath(using: .fillStroke)
 

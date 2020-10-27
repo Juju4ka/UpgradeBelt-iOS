@@ -19,6 +19,8 @@ class PatternsViewController: UIViewController, UITableViewDelegate, UITableView
     private let cellReuseIdentifier = "cell"
     private let sectionInsets = UIEdgeInsets(top: 50.0, left: 20.0, bottom: 50.0, right: 20.0)
     
+    private var backgroundFillColor: UIColor = .white
+    
     @IBOutlet var tableView: UITableView!
     @IBOutlet var containerView: UIView!
     
@@ -32,6 +34,13 @@ class PatternsViewController: UIViewController, UITableViewDelegate, UITableView
         
 //        // Register the table view cell class and its reuse id
 //        self.tableView.register(UITableViewCell.self, forCellReuseIdentifier: cellReuseIdentifier)
+        
+        if (self.traitCollection.userInterfaceStyle == .dark) {
+            // User Interface is Dark
+            backgroundFillColor = .gray
+        } else {
+            backgroundFillColor = .white
+        }
         
         // no lines where there aren't cells
         self.tableView.tableFooterView = UIView(frame: .zero)
@@ -67,7 +76,8 @@ class PatternsViewController: UIViewController, UITableViewDelegate, UITableView
         cell.playButton.tag = indexPath.row
                 
         cell.customBackgroundView?.layer.cornerRadius = 8
-        cell.customBackgroundView?.backgroundColor = .white
+        cell.customBackgroundView?.backgroundColor = backgroundFillColor
+        
         
         cell.titleLabel?.numberOfLines = 0
         cell.titleLabel?.text = gradingPattern?.name

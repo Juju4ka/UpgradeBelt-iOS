@@ -40,7 +40,13 @@ class RequirementsViewController: UIViewController, UITableViewDelegate, UITable
         // Register the table view cell class and its reuse id
         self.tableView.register(UITableViewCell.self, forCellReuseIdentifier: cellReuseIdentifier)
 
-        self.tableView.backgroundColor = .white
+        
+        if (self.traitCollection.userInterfaceStyle == .dark) {
+            // User Interface is Dark
+            self.tableView.backgroundColor = .gray
+        } else {
+            self.tableView.backgroundColor = .white
+        }
         self.tableView.layer.cornerRadius = 10
         self.tableView.allowsSelection = false
         
