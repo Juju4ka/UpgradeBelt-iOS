@@ -5,9 +5,6 @@ Upgrade Belt project is created in order to help Taekwon-Do students to learn th
 Using the app students can: 
 * browse grading material by belt syllabus, 
 * watch videos of how to perform patterns,
-* take terminology quiz.
-
-
-Development of this app is run by volunteers.
+* take terminology quiz (in future releases).
 
 Check out more information about Taekwon-Do at http://www.rita-itf.org
