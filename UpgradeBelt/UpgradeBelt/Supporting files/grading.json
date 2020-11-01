@@ -6,26 +6,26 @@
                    "grade": "10th kup - White Belt",
                    "iconName": "white-belt.png",
                    "requirements": [
-                       {"id":"0","name":"Parallel Stance Punch (10 times)", "patternId":null, "description": null},
-                       {"id":"1","name":"Front Rising Kick (10 times each leg)", "patternId":null, "description": null},
-                       {"id":"2","name":"4 Directional Punch Saju Jirugi", "patternId":"0", "description": null},
-                       {"id":"3","name":"4 Directional Block Saju Maki", "patternId":"1", "description": null},
-                       {"id":"4","name":"Press Ups (10)", "patternId":null, "description": null},
-                       {"id":"5","name":"3-step alone (prearranged) Sambo Yakok Matsogi", "patternId":null, "description":""},
+                       {"id":"0","name":"Parallel Stance (Narani Sogi), Middle Punch (x10)", "patternId":null, "description": null},                       
+                       {"id":"1","name":"Front Rising Kick", "patternId":null, "description": null},
+                       {"id":"2","name":"Press Ups (x10)", "patternId":null, "description": null},
+                       {"id":"3","name":"Four Directional Punch (Saju Jirugi)", "patternId":"0", "description": null},
+                       {"id":"4","name":"Four Directional Block (Saju Maki)", "patternId":"1", "description": null},                       
+                       {"id":"5","name":"White Belt Meaning", "patternId":null, "description":""},
                        {"id":"6","name":"Terminology & History", "patternId":null, "description":""}],
                    "patterns": [
                                 {
                                 "id": "0",
                                 "name": "Saju Jirugi,\nFour Directional Punch",
-                                "movements": 7,
-                                "meaning": "",
+                                "movements": 14,
+                                "meaning": "This pattern is a basic set of fundamental movements learned by the begginer student of Taekwon-Do.",
                                 "videoLink":"https://youtu.be/-jU-6897y9U"
                                 },
                                 {
                                 "id": "1",
                                 "name": "Saju Maki,\nFour Directional Block",
-                                "movements": 7,
-                                "meaning": "",
+                                "movements": 16,
+                                "meaning": "This pattern is a basic set of fundamental movements learned by the begginer student of Taekwon-Do.",
                                 "videoLink":"https://youtu.be/nO9EmLaxbAA"
                                 }
                                 ],
@@ -186,17 +186,21 @@
                    "id": "1",
                    "grade": "9th kup - Yellow Tag",
                    "iconName": "yellow-tag.png",
-                   "requirements": [
+                   "requirements": [                       
                        {"id":"0", "name": "Chon-Ji Tul", "patternId":"0", "description": null},
-                       {"id":"1", "name": "Press Ups (10)", "patternId":null, "description": null},
-                       {"id":"2", "name": "Sitting Stance Punch (10)", "patternId":null, "description": null},
-                       {"id":"3", "name": "3 – Step Sparring Pre-arranged with partner - SAMBO YAKOK MATSOGI", "patternId":null, "description": ""}],
+                       {"id":"1", "name": "Press Ups (x10)", "patternId":null, "description": null},
+                       {"id":"2", "name": "Sitting Stance Punch (x10)", "patternId":null, "description": null},
+                       {"id":"3", "name": "L-Stance (Niunja Sogi)", "patternId":null, "description": null},
+                       {"id":"4", "name": "3 – Step Sparring with a partner (pre-arranged) - Sambo Matsogi", "patternId":null, "description": ""},
+                       {"id":"5","name":"Yellow Belt Meaning", "patternId":null, "description":""},
+                       {"id":"6", "name": "Terminology", "patternId":null, "description": ""}
+                       ],
                    "patterns": [
                                 {
                                 "id": "0",
                                 "name": "Chon-Ji Tul",
                                 "movements": 19,
-                                "meaning": "CHON- JI means literally 'the Heaven the Earth'. It is, in the Orient, interpreted as the creation of the world or the beginning of human history, therefore, it is the initial pattern played by the beginner. This pattern consists of two similar parts; one to represent the Heaven and the other the Earth.",
+                                "meaning": "Chon-Ji literally means 'The Heaven the Earth'. It is interpreted as the creation of the world or the beginning of human history, therefore, it is the initial pattern performed by the beginner. This pattern consists of two similar parts: one part represents the Heaven and the other - the Earth.",
                                 "videoLink":"https://youtu.be/bNUla5J8qEg?list=PL222664842EEDE4DE"
                                 }
                                 ],
@@ -257,16 +261,17 @@
                    "id": "2",
                    "grade": "8th kup - Yellow Belt",
                    "iconName": "yellow-belt.png",
-                   "requirements": [
+                   "requirements": [                       
                        {"id":"0", "name":"Dan-Gun Tul", "patternId":"0", "description":null},
-                       {"id":"1", "name":"3-Step Sparring (Not Pre-arranged) - SAMBO MATSOGI", "patternId":null, "description":""}                       
+                       {"id":"1", "name":"3-Step Sparring with a partner - Sambo Matsogi", "patternId":null, "description":""},
+                       {"id":"2", "name": "Terminology", "patternId":null, "description": ""}
                    ],
                    "patterns": [
                                 {
                                 "id": "0",
                                 "name": "Dan-Gun",
                                 "movements": 21,
-                                "meaning": "Dan-Gun is named after the Holy Dan-Gun, the legendary founder of Korea in the year 2333 B.C.",
+                                "meaning": "Dan-Gun pattern is named after the Holy Dan-Gun, the legendary founder of Korea in the year 2333 B.C.",
                                 "videoLink":"https://youtu.be/qEKM0ECQ8lE?list=PL222664842EEDE4DE"
                                 }
                                 ],
@@ -314,17 +319,19 @@
                    "iconName": "green-tag.png",
                    "requirements": [
                        {"id":"0", "name":"Do-San Tul", "patternId":"0", "description":null},
-                       {"id":"1", "name":"3-Step Sparring (Not Pre-arranged) - SAMBO MATSOGI", "patternId":null, "description":null},
-                       {"id":"2", "name":"2-Step Sparring (Not Pre-arranged) - IBO MATSOGI", "patternId":null, "description":null},
-                       {"id":"3", "name":"Power: Side Piercing Kick Yopcha Jirugi", "patternId":null, "description":null},
-                       {"id":"4", "name":"Turning Kick Dollyo Chagi", "patternId":null, "description":null}
+                       {"id":"1", "name":"3-Step Sparring - Sambo Matsogi", "patternId":null, "description":null},
+                       {"id":"2", "name":"2-Step Sparring - Ibo Matsogi", "patternId":null, "description":null},
+                       {"id":"3", "name":"Side Piercing Kick (Yopcha Jirugi)", "patternId":null, "description":null},
+                       {"id":"4", "name":"Turning Kick (Dollyo Chagi)", "patternId":null, "description":null},
+                       {"id":"5","name":"Green Belt Meaning", "patternId":null, "description":""},
+                       {"id":"6", "name": "Terminology", "patternId":null, "description": ""}
                    ],
                    "patterns": [
                                 {
                                 "id": "0",
                                 "name": "Do-San Tul",
                                 "movements": 24,
-                                "meaning": "DO-SAN is the pseudonym of the patriot Ahn Chang-Ho (1876-1938) The 24 movements represent his entire life which he devoted to furthering the education of Korea and its independence movement.",
+                                "meaning": "Do-San is the pseudonym of the patriot Ahn Chang-Ho (1876-1938) The 24 movements represent his entire life which he devoted to furthering the education of Korea and its independence movement.",
                                 "videoLink":"https://youtu.be/y7ESSYlI_Vw?list=PL222664842EEDE4DE"
                                 }
                                 ],
@@ -398,6 +405,31 @@
                                    "id": "13",
                                    "English": "Fast Motion",
                                    "Korean": "Barun Dongjak"
+                                   },
+                                   {
+                                   "id": "14",
+                                   "English": "Back Fist Strike",
+                                   "Korean": "Dung Joomuk Taerigi"
+                                   },
+                                   {
+                                   "id": "15",
+                                   "English": "Downward knife-hand Strike",
+                                   "Korean": "Naeryo Sonkal Taerigi"
+                                   },
+                                   {
+                                   "id": "16",
+                                   "English": "Downward Strike",
+                                   "Korean": "Naeryo Taerigi"
+                                   },
+                                   {
+                                   "id": "17",
+                                   "English": "Side Strike",
+                                   "Korean": "Yop Taerigi"
+                                   },
+                                   {
+                                   "id": "18",
+                                   "English": "Side Back Strike",
+                                   "Korean": "Yopdwi Taerigi"
                                    }
                                    ]
                    },
@@ -407,11 +439,12 @@
                    "iconName": "green-belt.png",
                    "requirements": [
                        {"id":"0", "name":"Won-Hyo Tul", "patternId":"0", "description":null},
-                       {"id":"1", "name":"2-Step Sparring Ibo Matsogi", "patternId":null, "description":null},
-                       {"id":"2", "name":"1-Step Ilbo Matsogi", "patternId":null, "description":null},
-                       {"id":"3", "name":"Side Piercing Kick Yopcha Jirugi (Power)", "patternId":null, "description":null},
-                       {"id":"4", "name":"Reverse Turning Kick Bandae Dollyo Chagi (Power)", "patternId":null, "description":null},
-                       {"id":"5", "name":"Hand Technique Son Gilsool (Power)", "patternId":null, "description":null}
+                       {"id":"1", "name":"2-Step Sparring - Ibo Matsogi", "patternId":null, "description":null},
+                       {"id":"2", "name":"1-Step Sparring - Ilbo Matsogi", "patternId":null, "description":null},
+                       {"id":"3", "name":"Side Piercing Kick (Yopcha Jirugi)", "patternId":null, "description":null},                       
+                       {"id":"4", "name":"Reverse Turning Kick (Bandae Dollyo Chagi)", "patternId":null, "description":null},  
+                       {"id":"5", "name": "Hand Technique", "patternId":null, "description": ""},
+                       {"id":"6", "name": "Terminology", "patternId":null, "description": ""}                     
                    ],
                    "patterns": [
                                 {
@@ -476,18 +509,20 @@
                    "iconName": "blue-tag.png",
                    "requirements": [
                        {"id":"0", "name":"Yul-Gok Tul", "patternId":"0", "description":null},
-                       {"id":"1", "name":"1-Step Sparring Ilbo Matsogi", "patternId":null, "description":null},
-                       {"id":"2", "name":"Semi-Free Sparring Ban Jayu Matsogi", "patternId":null, "description":null},
-                       {"id":"3", "name":"Side Piercing Kick Yopcha Jirugi (Power)", "patternId":null, "description":null},
-                       {"id":"4", "name":"Reverse Turning Kick Bandae Dollyo Chagi (Power)", "patternId":null, "description":null},
-                       {"id":"5", "name":"Hand Technique Son Gilsool (Power)", "patternId":null, "description":null}
+                       {"id":"1", "name":"1-Step Sparring - Ilbo Matsogi", "patternId":null, "description":null},
+                       {"id":"2", "name":"Semi-Free Sparring - Ban Jayu Matsogi", "patternId":null, "description":null},
+                       {"id":"3", "name":"Side Piercing Kick (Yopcha Jirugi)", "patternId":null, "description":null},
+                       {"id":"4", "name":"Hand Technique", "patternId":null, "description":null},
+                       {"id":"5", "name":"Reverse Turning Kick (Bandae Dollyo Chagi)", "patternId":null, "description":null},
+                       {"id":"5","name":"Blue Belt Meaning", "patternId":null, "description":""},
+                       {"id":"6", "name": "Terminology", "patternId":null, "description": ""}
                    ],
                    "patterns": [
                                 {
                                 "id": "0",
                                 "name": "Yul-Gok Tul",
                                 "movements": 38,
-                                "meaning": "YUL-GOK is the pseudonym of a great philosopher and scholar Yi l (1536-1584) nicknamed the 'Confucius of Korea' The 38 movements of this pattern refer to his birthplace on 38 latitude and the diagram represents 'scholar'.",
+                                "meaning": "Yul-Gok is the pseudonym of a great philosopher and scholar Yi l (1536-1584) nicknamed the 'Confucius of Korea' The 38 movements of this pattern refer to his birthplace on 38 latitude and the diagram represents 'scholar'.",
                                 "videoLink":"https://youtu.be/dOasDzQCuUQ?list=PL222664842EEDE4DE"
                                 }
                                 ],
@@ -530,17 +565,18 @@
                    "iconName": "blue-belt.png",
                    "requirements": [
                        {"id":"0", "name":"Joong-Gun Tul", "patternId":"0", "description":null},
-                       {"id":"1", "name":"Semi-Free Sparring Ban Jayu Matsogi", "patternId":null, "description":null},
-                       {"id":"2", "name":"Free Sparring Jayu Matsogi", "patternId":null, "description":null},
-                       {"id":"3", "name":"Reverse Turning Kick BANDAE DOLLYO CHAGI (Power)", "patternId":null, "description":null},
-                       {"id":"4", "name":"Hand Technique SON GILSOOL (Power)", "patternId":null, "description":null}
+                       {"id":"1", "name":"Semi-Free Sparring - Ban Jayu Matsogi", "patternId":null, "description":null},
+                       {"id":"2", "name":"Free Sparring - Jayu Matsogi", "patternId":null, "description":null},
+                       {"id":"3", "name":"Reverse Turning Kick (Bandae Dollyo Chagi)", "patternId":null, "description":null},
+                       {"id":"4", "name":"Hand Technique", "patternId":null, "description":null},
+                       {"id":"5", "name": "Terminology", "patternId":null, "description": ""}
                    ],
                    "patterns": [
                                 {
                                 "id": "0",
                                 "name": "Joong-Gun Tu",
                                 "movements": 32,
-                                "meaning": "JOONG-GUN is named after the patriot Ahn Joong-Gun who assassinated Hiro-Bumi Ito, the first Japanese governor-general of Korea, known as the man who played the leading part in the Korea-Japan merger. There are 32 movements in this pattern to represent Mr. Ahn's age when he was executed in a Lui-Shung prison (1910).",
+                                "meaning": "Joong-Gun is named after the patriot Ahn Joong-Gun who assassinated Hiro-Bumi Ito, the first Japanese governor-general of Korea, known as the man who played the leading part in the Korea-Japan merger. There are 32 movements in this pattern to represent Mr. Ahn’s age when he was executed in a Lui-Shung prison (1910).",
                                 "videoLink":"https://youtu.be/YFq855JvHJU?list=PL222664842EEDE4DE"
                                 }
                                 ],
@@ -618,17 +654,19 @@
                    "iconName": "red-tag.png",
                    "requirements": [
                        {"id":"0", "name":"Toi-Gye Tul", "patternId":"0", "description":null},
-                       {"id":"1", "name":"Semi-Free Sparring Ban Jayu Matsogi", "patternId":null, "description":null},
-                       {"id":"2", "name":"Free Sparring Jayu Matsogi", "patternId":null, "description":null},
-                       {"id":"3", "name":"Reverse Turning Kick BANDAE DOLLYO CHAGI (Power)", "patternId":null, "description":null},
-                       {"id":"4", "name":"Hand Technique SON GILSOOL (Power)", "patternId":null, "description":null}
+                       {"id":"1", "name":"Semi-Free Sparring - Ban Jayu Matsogi", "patternId":null, "description":null},
+                       {"id":"2", "name":"Free Sparring - Jayu Matsogi", "patternId":null, "description":null},
+                       {"id":"3", "name":"Reverse Turning Kick (Bandae Dollyo Chagi)", "patternId":null, "description":null},
+                       {"id":"4", "name":"Hand Technique", "patternId":null, "description":null},
+                       {"id":"5","name":"Red Belt Meaning", "patternId":null, "description":""},
+                       {"id":"6", "name": "Terminology", "patternId":null, "description": ""}
                    ],
                    "patterns": [
                                 {
                                 "id": "0",
                                 "name": "Toi-Gye Tul",
                                 "movements": 37,
-                                "meaning": "TOI-GYE is the pen name of the noted scholar Yi Hwang (16th century), an authority on neo Confucianism. The 37 movements of the pattern refer to his birthplace on 37 latitude, the diagram represents 'scholar'.",
+                                "meaning": "Toi-Gye is the pen name of the noted scholar Yi Hwang (16th century), an authority on neo Confucianism. The 37 movements of the pattern refer to his birthplace on 37th degree latitude, the diagram represents 'scholar'.",
                                 "videoLink":"https://youtu.be/z9Yhp9fmlZo?list=PL222664842EEDE4DE"
                                 }
                                 ],
@@ -671,19 +709,20 @@
                    "iconName": "red-belt.png",
                    "requirements": [
                        {"id":"0", "name":"Hwa-Rang Tul", "patternId":"0", "description":null},
-                       {"id":"1", "name":"Self Defence (Pre-arranged) Yakok Hosin Sul", "patternId":null, "description":null},
-                       {"id":"2", "name":"Free Sparring Jayu Matsogi", "patternId":null, "description":null},
-                       {"id":"3", "name":"Side Piercing Kick Yopcha Jirugi (Power)", "patternId":null, "description":null},
-                       {"id":"4", "name":"Turning Kick Dollyo Chagi (Power)", "patternId":null, "description":null},
-                       {"id":"5", "name":"Reverse Turning Kick Bandae Dollyo Chagi (Power)", "patternId":null, "description":null},
-                       {"id":"6", "name":"Hand Technique Son Gilsool (Power)", "patternId":null, "description":null}
+                       {"id":"1", "name":"Self Defence Technique - Yakok Hosin Sul", "patternId":null, "description":null},
+                       {"id":"2", "name":"Free Sparring - Jayu Matsogi", "patternId":null, "description":null},
+                       {"id":"3", "name":"Side Piercing Kick (Yopcha Jirugi)", "patternId":null, "description":null},
+                       {"id":"4", "name":"Turning Kick (Dollyo Chagi)", "patternId":null, "description":null},
+                       {"id":"5", "name":"Reverse Turning Kick (Bandae Dollyo Chagi)", "patternId":null, "description":null},
+                       {"id":"6", "name":"Hand Technique", "patternId":null, "description":null},
+                       {"id":"7", "name": "Terminology", "patternId":null, "description": ""}
                    ],
                    "patterns": [
                                 {
                                 "id": "0",
-                                "name": "HWA-RANG",
+                                "name": "Hwa-Rang Tul",
                                 "movements": 29,
-                                "meaning": "HWA-RANG is named after the Hwa-Rang youth group, which originated in the Silla Dynasty in the early 7th century. The 29 movements refer to the 29th Infantry Division, where Taekwon-Do developed into maturity.",
+                                "meaning": "Hwa-Rang is named after the Hwa-Rang youth group, which originated in the Silla dynasty about 1350 years ago (early 7th century). The 29 movements refer to the 29th infantry division, where Taekwon-Do developed into maturity.",
                                 "videoLink":"https://youtu.be/Eo765RRvkKU"
                                 }
                                 ],
@@ -724,27 +763,29 @@
                    "id": "9",
                    "grade": "1st kup - Black Tag",
                    "iconName": "black-tag.png",
-                   "requirements": [
-                       {"id":"0", "name":"Hwa-Rang Tul", "patternId":"0", "description":null},
+                   "requirements": [                       
                        {"id":"1", "name":"Choong-Moo Tul", "patternId":"1", "description":null},
-                       {"id":"2", "name":"Self Defence Hosin Sul", "patternId":null, "description":null},
-                       {"id":"3", "name":"Free Sparring Jayu Matsogi", "patternId":null, "description":null},
-                       {"id":"4", "name":"2-1 Free Sparring I Dae IL Matsogi", "patternId":null, "description":null},
-                       {"id":"5", "name":"Reverse Turning Kick Bandae Dollyo Chagi (Power)", "patternId":null, "description":null},
-                       {"id":"6", "name":"Spot Jumping Side Piercing Kick Twimyo Yopcha Busigi (Power)", "patternId":null, "description":null},
-                       {"id":"7", "name":"Hand Techniques Son Gilsool (Power)", "patternId":null, "description":null}
+                       {"id":"2", "name":"Self-Defence Technique - Hosin Sul", "patternId":null, "description":null},
+                       {"id":"3", "name":"Free Sparring - Jayu Matsogi", "patternId":null, "description":null},
+                       {"id":"4", "name":"2 vs 1 Free Sparring", "patternId":null, "description":null},
+                       {"id":"5", "name":"Turning kick (Dollyo Chagi)", "patternId":null, "description":null},
+                       {"id":"6", "name":"Reverse Turning Kick (Bandae Dollyo Chagi)", "patternId":null, "description":null},
+                       {"id":"7", "name":"Spot Jumping Side Piercing Kick (Twimyo Yopcha Busigi)", "patternId":null, "description":null},
+                       {"id":"8", "name":"Hand Technique", "patternId":null, "description":null},
+                       {"id":"5","name":"Black Belt Meaning", "patternId":null, "description":""},
+                       {"id":"6", "name": "Terminology", "patternId":null, "description": ""}
                    ],
                    "patterns": [
                                 {
                                 "id": "0",
-                                "name": "HWA-RANG",
+                                "name": "Hwa-Rang Tul",
                                 "movements": 29,
-                                "meaning": "HWA-RANG is named after the Hwa-Rang youth group, which originated in the Silla Dynasty in the early 7th century. The 29 movements refer to the 29th Infantry Division, where Taekwon-Do developed into maturity.",
+                                "meaning": "Hwa-Rang is named after the Hwa-Rang youth group, which originated in the Silla dynasty about 1350 years ago (early 7th century). The 29 movements refer to the 29th infantry division, where Taekwon-Do developed into maturity.",
                                 "videoLink":"https://youtu.be/Eo765RRvkKU"
                                 },
                                 {
                                 "id": "1",
-                                "name": "CHOONG-MOO",
+                                "name": "Choong-Moo Tul",
                                 "movements": 30,
                                 "meaning": "Choong-Moo is the pseudonym given to the great Admiral Yi Soon-Sin (Lee Dynasty). He is reputed to have invented the first armoured battleship (Kobukson) in 1592, said to be the precursor of the present day submarine. The reason why this pattern ends with a left hand attack is to symbolize his regrettable death, having no chance to show his unrestrained potential, checked by the forced reservation of his loyalty to the King.",
                                 "videoLink":"https://youtu.be/06lD3SZ6g7k"
@@ -783,31 +824,32 @@
                       {"id":"0", "name":"Kwang-Gae Tul", "patternId":"0", "description":null},
                       {"id":"1", "name":"Po-Eun Tul", "patternId":"1", "description":null},
                       {"id":"2", "name":"Ge-Baek Tul", "patternId":"2", "description":null},
-                      {"id":"3", "name":"Foot Sparring BAL MATSOGI", "patternId":null, "description":null},
-                      {"id":"4", "name":"Free Sparring JAYU MATSOGI", "patternId":null, "description":null},
-                      {"id":"5", "name":"Flying Turning Kick TWIMYO DOLLYO CHAGI (Power)", "patternId":null, "description":null},
-                      {"id":"6", "name":"Hand Techniques GONG GYOKGI (Power)", "patternId":null, "description":null}
+                      {"id":"3", "name":"Foot Sparring - Bal Matsogi", "patternId":null, "description":null},
+                      {"id":"4", "name":"Free Sparring - Jayu Matsogi", "patternId":null, "description":null},
+                      {"id":"5", "name":"Flying Turning Kick (Twimyo Dollyo Chagi)", "patternId":null, "description":null},
+                      {"id":"6", "name":"Hand Techniques", "patternId":null, "description":null},
+                      {"id":"7", "name": "Terminology", "patternId":null, "description": ""}
                   ],
                   "patterns": [
                                {
                                "id": "0",
-                               "name": "KWANG-GAE Tul",
+                               "name": "Kwang-Gae Tul",
                                "movements": 39,
-                               "meaning": "KWANG-GAE is named after the famous Kwang-Gae-Toh-Wang, the 19th King of the Koguryo Dynasty, who regained all the lost territories including the greater part of Manchuria. The diagram represents the expansion and recovery of lost territory. The 39 movements refer to the first two figures of 391 A. D., the year he came to the throne.",
+                               "meaning": "Kwang-Gae is named after the famous Kwang-Gae-Toh-Wang, the 19th King of the Koguryo Dynasty, who regained all the lost territories including the greater part of Manchuria. The diagram represents the expansion and recovery of lost territory. The 39 movements refer to the first two figures of 391 A. D., the year he came to the throne.",
                                "videoLink":"https://youtu.be/9QcmRQWUxao"
                                },
                                {
                                "id": "1",
-                               "name": "PO-EUN Tul",
+                               "name": "Po-Eun Tul",
                                "movements": 36,
-                               "meaning": "PO-EUN is the pseudonym of a loyal subject Chong Mong-Chu (1400) who was a famous poet and whose poem 'I would not serve a second master though I might be crucified a hundred times' is known to every Korean. He was also a pioneer in the field of physics. The diagram represents his unerring loyalty to the king and country towards the end of the Koryo Dynasty.",
+                               "meaning": "Po-Eun is the pseudonym of a loyal subject Chong Mong-Chu (1400) who was a famous poet and whose poem 'I would not serve a second master though I might be crucified a hundred times' is known to every Korean. He was also a pioneer in the field of physics. The diagram represents his unerring loyalty to the king and country towards the end of the Koryo Dynasty.",
                                "videoLink":"https://youtu.be/_AYUC_Xjdrs"
                                },
                                {
                                "id": "2",
-                               "name": "GE-BAEK Tul",
+                               "name": "Ge-Baek Tul",
                                "movements": 44,
-                               "meaning": "GE-BAEK is named after Ge-Baek, a great general in the Baek Je Dynasty (660 AD). The diagram represents his severe and strict military discipline.",
+                               "meaning": "Ge-Baek is named after Ge-Baek, a great general in the Baek Je Dynasty (660 AD). The diagram represents his severe and strict military discipline.",
                                "videoLink":"https://youtu.be/s3BvnSCtJg8"
                                }
                                ],
@@ -925,24 +967,25 @@
                   "iconName": "black-belt-2.png",
                   "requirements": [
                       {"id":"0", "name":"Eui-Am Tul", "patternId":"0", "description":null},
-                      {"id":"1", "name":"Choong-Jang Tul ", "patternId":"1", "description":null},
+                      {"id":"1", "name":"Choong-Jang Tul", "patternId":"1", "description":null},
                       {"id":"2", "name":"Juche Tul", "patternId":"2", "description":null},
-                      {"id":"3", "name":"Foot Sparring BAL MATSOGI", "patternId":null, "description":null},
-                      {"id":"4", "name":"Free Sparring JAYU MATSOGI", "patternId":null, "description":null},
-                      {"id":"5", "name":"Flying Reverse Turning Kick TWIMYO BANDAE DOLLYO CHAGI  (Power)", "patternId":null, "description":null},
-                      {"id":"6", "name":"Hand Techniques GONG GYOKGI", "patternId":null, "description":null}
+                      {"id":"3", "name":"Foot Sparring - Bal Matsogi", "patternId":null, "description":null},
+                      {"id":"4", "name":"Free Sparring - Jayu Matsogi", "patternId":null, "description":null},
+                      {"id":"5", "name":"Flying Reverse Turning Kick (Twinyo Bandae Dollyo Chagi)", "patternId":null, "description":null},
+                      {"id":"6", "name":"Hand Techniques", "patternId":null, "description":null},
+                      {"id":"7", "name": "Terminology", "patternId":null, "description": ""}
                   ],
                   "patterns": [
                                {
                                "id": "0",
-                               "name": "EUI- AM Tul",
+                               "name": "Eui-Am Tul",
                                "movements": 45,
-                               "meaning": "EUI- AM is the pseudonym of Son Byong Hi, leader of the Korean independence movement on March 1, 1919. The 45 movements refer to his age when he changed the name of Dong Hak (Oriental culture) to Chondo Kyo (Heavenly way religion) in 1905. The diagram represents his Indomitable Spirit, displayed while dedicating himself to the prosperity of his nation.",
+                               "meaning": "Eui-Am is the pseudonym of Son Byong Hi, leader of the Korean independence movement on March 1, 1919. The 45 movements refer to his age when he changed the name of Dong Hak (Oriental culture) to Chondo Kyo (Heavenly way religion) in 1905. The diagram represents his Indomitable Spirit, displayed while dedicating himself to the prosperity of his nation.",
                                "videoLink":"https://youtu.be/0VsXxqtDfQg"
                                },
                                {
                                "id": "1",
-                               "name": "CHOONG-JANG Tul",
+                               "name": "Choong-Jang Tul",
                                "movements": 52,
                                "meaning": "CHOONG-JANG is the pseudonym given to General Kim Duk Ryang who lived during the Lee Dynasty, 14th century. This pattern ends with a left-hand attack to symbolize the tragedy of his death at 27 in prison before he was able to reach full maturity.",
                                "videoLink":"https://youtu.be/3W25EELkbfQ"
@@ -1115,31 +1158,32 @@
                       {"id":"0", "name":"Sam-Il Tul", "patternId":"0", "description":null},
                       {"id":"1", "name":"Yoo-Sin Tul", "patternId":"1", "description":null},
                       {"id":"2", "name":"Choi-Yong Tul", "patternId":"2", "description":null},
-                      {"id":"3", "name":"Foot Sparring BAL MATSOGI", "patternId":null, "description":null},
-                      {"id":"4", "name":"Free Sparring JAYU MATSOGI", "patternId":null, "description":null},
-                      {"id":"5", "name":"Mid Air Kick 360 TWIO DOLMYO CHAGI (Power)", "patternId":null, "description":null},
-                      {"id":"6", "name":"Hand Techniques GONG GYOKGI (Power)", "patternId":null, "description":null}
+                      {"id":"3", "name":"Foot Sparring - Bal Matsogi", "patternId":null, "description":null},
+                      {"id":"4", "name":"Free Sparring - Jayu Matsogi", "patternId":null, "description":null},
+                      {"id":"5", "name":"Mid Air Kick 360 (Twio Dolmyo Chagi)", "patternId":null, "description":null},
+                      {"id":"6", "name":"Hand Techniques", "patternId":null, "description":null},
+                      {"id":"7", "name": "Terminology", "patternId":null, "description": ""}
                   ],
                   "patterns": [
                                {
                                "id": "0",
-                               "name": "SAM-IL Tul",
+                               "name": "Sam-Il Tul",
                                "movements": 33,
-                               "meaning": "SAM-IL denotes the historical date of the independence movement of Korea which began throughout the country on March 1, 1919. The 33 movements in the pattern stand for the 33 patriots who planned the movement.",
+                               "meaning": "Sam-Il denotes the historical date of the independence movement of Korea which began throughout the country on March 1, 1919. The 33 movements in the pattern stand for the 33 patriots who planned the movement.",
                                "videoLink":"https://youtu.be/7KqbZ6G3-3k"
                                },
                                {
                                "id": "1",
-                               "name": "YOO-SIN Tul",
+                               "name": "Yoo-Sin Tul",
                                "movements": 68,
-                               "meaning": "YOO-SIN is named after General Kim Yoo Sin, a commanding general during the Silla Dynasty. The 68 movements refer to the last two figures of 668 A.D., the year Korea was united. The ready posture signifies a sword drawn on the right rather than left side, symbolizing Yoo Sin's mistake of following his Kings' orders to fight with foreign forces against his own nation.",
+                               "meaning": "Yoo-Sin is named after General Kim Yoo Sin, a commanding general during the Silla Dynasty. The 68 movements refer to the last two figures of 668 A.D., the year Korea was united. The ready posture signifies a sword drawn on the right rather than left side, symbolizing Yoo Sin's mistake of following his Kings' orders to fight with foreign forces against his own nation.",
                                "videoLink":"https://youtu.be/Hh78kUHoTxA"
                                },
                                {
                                "id": "2",
-                               "name": "CHOI-YONG Tul",
+                               "name": "Choi-Yong Tul",
                                "movements": 46,
-                               "meaning": "CHOI-YONG is named after General Choi Yong, premier and commander in chief of the armed forces during the 14th century Koryo Dynasty. Choi Yong was greatly respected for his loyalty, patriotism, and humility. He was executed by his subordinate commanders headed by general Yi Sung Gae, who later became the first King of the Lee Dynasty.",
+                               "meaning": "Choi-Yong is named after General Choi Yong, premier and commander in chief of the armed forces during the 14th century Koryo Dynasty. Choi Yong was greatly respected for his loyalty, patriotism, and humility. He was executed by his subordinate commanders headed by general Yi Sung Gae, who later became the first King of the Lee Dynasty.",
                                "videoLink":"https://youtu.be/UGcbCeQyksY"
                                }
                                ],
@@ -1204,7 +1248,7 @@
                       {"id":"0", "name":"UL-Ji Tul", "patternId":"0", "description":null},
                       {"id":"1", "name":"Moon-Moo Tul", "patternId":"1", "description":null},
                       {"id":"2", "name":"Yong-Gae Tul", "patternId":"2", "description":null},
-                      {"id":"3", "name":"Power: Demonstration", "patternId":null, "description":null}
+                      {"id":"3", "name": "Terminology", "patternId":null, "description": ""}
                   ],
                   "patterns": [
                                {
