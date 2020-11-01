@@ -417,10 +417,10 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="53a-2H-Idi">
-                                        <rect key="frame" x="0.0" y="212" width="414" height="300"/>
+                                        <rect key="frame" x="0.0" y="205" width="414" height="320"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="GQe-Hl-bgL">
-                                                <rect key="frame" x="0.0" y="0.0" width="414" height="300"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="414" height="320"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Upgrade Belt" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qef-ox-7oI">
                                                         <rect key="frame" x="0.0" y="0.0" width="414" height="24"/>
@@ -428,24 +428,35 @@
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
-                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KqF-BN-0K2">
-                                                        <rect key="frame" x="0.0" y="44" width="414" height="206"/>
+                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" editable="NO" textAlignment="justified" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KqF-BN-0K2">
+                                                        <rect key="frame" x="0.0" y="44" width="414" height="166"/>
                                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                                         <color key="textColor" systemColor="labelColor"/>
                                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                                     </textView>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RjF-LO-5my">
-                                                        <rect key="frame" x="0.0" y="270" width="414" height="30"/>
-                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
-                                                        <state key="normal" title="Contact us">
-                                                            <color key="titleColor" systemColor="systemTealColor"/>
-                                                        </state>
-                                                        <connections>
-                                                            <action selector="contactUs:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="Xep-KC-udk"/>
-                                                        </connections>
-                                                    </button>
+                                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ukQ-MP-vbF">
+                                                        <rect key="frame" x="0.0" y="230" width="414" height="90"/>
+                                                        <subviews>
+                                                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RjF-LO-5my">
+                                                                <rect key="frame" x="164.66666666666666" y="15" width="85" height="40"/>
+                                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                                <inset key="contentEdgeInsets" minX="7" minY="7" maxX="7" maxY="7"/>
+                                                                <state key="normal" title="Contact us">
+                                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                </state>
+                                                                <connections>
+                                                                    <action selector="contactUs:" destination="8rJ-Kc-sve" eventType="touchUpInside" id="Xep-KC-udk"/>
+                                                                </connections>
+                                                            </button>
+                                                        </subviews>
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstItem="RjF-LO-5my" firstAttribute="centerY" secondItem="ukQ-MP-vbF" secondAttribute="centerY" id="27e-G8-87H"/>
+                                                            <constraint firstItem="RjF-LO-5my" firstAttribute="centerX" secondItem="ukQ-MP-vbF" secondAttribute="centerX" id="khX-OK-irD"/>
+                                                        </constraints>
+                                                    </view>
                                                 </subviews>
                                             </stackView>
                                         </subviews>
@@ -454,7 +465,7 @@
                                             <constraint firstAttribute="trailing" secondItem="GQe-Hl-bgL" secondAttribute="trailing" id="Rrx-B8-rAX"/>
                                             <constraint firstItem="GQe-Hl-bgL" firstAttribute="leading" secondItem="53a-2H-Idi" secondAttribute="leading" id="bzP-Va-Di4"/>
                                             <constraint firstAttribute="bottom" secondItem="GQe-Hl-bgL" secondAttribute="bottom" id="fRZ-Wv-45A"/>
-                                            <constraint firstAttribute="height" constant="300" id="ggS-tR-TiD"/>
+                                            <constraint firstAttribute="height" constant="320" id="ggS-tR-TiD"/>
                                             <constraint firstItem="GQe-Hl-bgL" firstAttribute="top" secondItem="53a-2H-Idi" secondAttribute="top" id="pM3-EQ-QV6"/>
                                         </constraints>
                                     </view>
@@ -463,7 +474,7 @@
                                 <constraints>
                                     <constraint firstItem="53a-2H-Idi" firstAttribute="centerX" secondItem="EHY-hC-f28" secondAttribute="centerX" id="DQc-vg-Kgt"/>
                                     <constraint firstItem="53a-2H-Idi" firstAttribute="leading" secondItem="EHY-hC-f28" secondAttribute="leading" id="KzD-vx-zaT"/>
-                                    <constraint firstItem="53a-2H-Idi" firstAttribute="top" secondItem="EHY-hC-f28" secondAttribute="top" constant="212" id="ORx-Uf-g91"/>
+                                    <constraint firstItem="53a-2H-Idi" firstAttribute="top" secondItem="EHY-hC-f28" secondAttribute="top" constant="205" id="ORx-Uf-g91"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -478,6 +489,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="About" image="info.circle" catalog="system" id="cPa-gy-q4n"/>
                     <connections>
+                        <outlet property="contactUsButton" destination="RjF-LO-5my" id="sYo-JD-fNt"/>
                         <outlet property="containerView" destination="53a-2H-Idi" id="X5u-Mh-KkZ"/>
                         <outlet property="textView" destination="KqF-BN-0K2" id="jWz-P1-fBw"/>
                         <outlet property="view" destination="QS5-Rx-YEW" id="GUr-BJ-oLJ"/>
@@ -537,9 +549,6 @@
         </systemColor>
         <systemColor name="systemGray5Color">
             <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
-        <systemColor name="systemTealColor">
-            <color red="0.35294117647058826" green="0.78431372549019607" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
