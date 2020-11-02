@@ -13,7 +13,7 @@ class SecondViewController: UIViewController, MFMailComposeViewControllerDelegat
 
     @IBOutlet var containerView: UIView!
     @IBOutlet var textView: UITextView!
-    @IBOutlet var contactUsButton: UIButton!
+    @IBOutlet var contactUsButton: UIButton!    
         
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,7 +27,7 @@ class SecondViewController: UIViewController, MFMailComposeViewControllerDelegat
         contactUsButton.layer.borderColor = UIColor.black.cgColor
         contactUsButton.layer.borderWidth = 1.0
         contactUsButton.backgroundColor = .white
-//            UIColor.init(red: 1.0, green: 1.0, blue: 1.0, alpha: 0.7)
+        
     }
     
     func openURL(url: URL) {
