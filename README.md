@@ -9,5 +9,6 @@ Using the app students can:
 
 Check out more information about Taekwon-Do at http://www.rita-itf.org
 
-Main screen
-![Simulator Screen Shot - iPhone 12 Pro Max - 2022-03-21 at 15 15 16](https://user-images.githubusercontent.com/2361585/159293339-f07f3dee-46e1-45d7-bf27-ff3d1418294e.png)
+**App preview**
+
+![black-1-1 copy](https://user-images.githubusercontent.com/2361585/159293963-7f38ccb0-452a-4f5a-a2d4-b12d58039dd0.png)
