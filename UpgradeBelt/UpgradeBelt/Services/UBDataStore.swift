@@ -17,7 +17,7 @@ class UBDataStore {
     }
     
     func load() -> UBGradingMaterial? {
-        // Open file stored within the project bundle
+        // Get location of the file stored within the project bundle
         if let fileLocation = Bundle.main.url(forResource: "grading", withExtension: "json") {
             do {
                 // Read the contents of the file
