@@ -21,7 +21,7 @@ class SecondViewController: UIViewController, MFMailComposeViewControllerDelegat
                 
         let buildVersion = Bundle.main.infoDictionary?["CFBundleVersion"] as? String ?? "X"
         textView.contentInset = .init(top: 0, left: 20, bottom: 0, right: 20)
-        textView.text = "Upgrade Belt app is created for Taekwon-Do students as a support tool to browse and learn grading material in preparation for their next belt.\n\nThe app may not cover all grading requirements and may contain mistakes. \n\nIf you'd like to contribute or support the project, or want to share your thoughts of how to improve the app please contact us.\n\nBuild v." + buildVersion
+        textView.text = "Upgrade Taekwondo Belt app is created for Taekwon-Do students as a support tool to browse and learn grading material in preparation for their next belt.\n\nThe app may not cover all grading requirements and may contain mistakes. \n\nIf you'd like to contribute or support the project please contact us.\n\nBuild v." + buildVersion
         
         contactUsButton.layer.cornerRadius = 10
         contactUsButton.layer.borderColor = UIColor.black.cgColor
@@ -39,7 +39,7 @@ class SecondViewController: UIViewController, MFMailComposeViewControllerDelegat
     
     @IBAction func contactUs(_ sender:UIButton) {
         let recipientEmail = "upgradebelt@gmail.com"
-        let subject = "Upgrade Belt"
+        let subject = "Upgrade Taekwondo Belt"
         let body = ""
 
         // Show default mail composer
