@@ -69,7 +69,7 @@
 		A354F218250AE8D5001A5E0E /* RequirementsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequirementsViewController.swift; sourceTree = "<group>"; };
 		A354F21A250AEBFC001A5E0E /* PatternsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PatternsViewController.swift; sourceTree = "<group>"; };
 		A354F21C250AEC10001A5E0E /* TerminologyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerminologyViewController.swift; sourceTree = "<group>"; };
-		A36BE821244212A40025F302 /* Upgrade Belt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Upgrade Belt.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A36BE821244212A40025F302 /* Upgrade Taekwondo Belt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Upgrade Taekwondo Belt.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A36BE824244212A40025F302 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A36BE826244212A40025F302 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A36BE828244212A40025F302 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -79,10 +79,10 @@
 		A36BE832244212A50025F302 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A36BE835244212A50025F302 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A36BE837244212A50025F302 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A36BE83C244212A60025F302 /* UpgradeBeltTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UpgradeBeltTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A36BE83C244212A60025F302 /* UpgradeTaekwondoBeltTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UpgradeTaekwondoBeltTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A36BE840244212A60025F302 /* UpgradeBeltTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpgradeBeltTests.swift; sourceTree = "<group>"; };
 		A36BE842244212A60025F302 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A36BE847244212A60025F302 /* UpgradeBeltUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UpgradeBeltUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A36BE847244212A60025F302 /* UpgradeTaekwondoBeltUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UpgradeTaekwondoBeltUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A36BE84B244212A60025F302 /* UpgradeBeltUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpgradeBeltUITests.swift; sourceTree = "<group>"; };
 		A36BE84D244212A60025F302 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A36BE85A244212F50025F302 /* grading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = grading.json; sourceTree = "<group>"; };
@@ -170,9 +170,9 @@
 		A36BE822244212A40025F302 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A36BE821244212A40025F302 /* Upgrade Belt.app */,
-				A36BE83C244212A60025F302 /* UpgradeBeltTests.xctest */,
-				A36BE847244212A60025F302 /* UpgradeBeltUITests.xctest */,
+				A36BE821244212A40025F302 /* Upgrade Taekwondo Belt.app */,
+				A36BE83C244212A60025F302 /* UpgradeTaekwondoBeltTests.xctest */,
+				A36BE847244212A60025F302 /* UpgradeTaekwondoBeltUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -288,9 +288,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A36BE820244212A40025F302 /* UpgradeBelt */ = {
+		A36BE820244212A40025F302 /* UpgradeTaekwondoBelt */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A36BE850244212A60025F302 /* Build configuration list for PBXNativeTarget "UpgradeBelt" */;
+			buildConfigurationList = A36BE850244212A60025F302 /* Build configuration list for PBXNativeTarget "UpgradeTaekwondoBelt" */;
 			buildPhases = (
 				A36BE81D244212A40025F302 /* Sources */,
 				A36BE81E244212A40025F302 /* Frameworks */,
@@ -300,14 +300,14 @@
 			);
 			dependencies = (
 			);
-			name = UpgradeBelt;
+			name = UpgradeTaekwondoBelt;
 			productName = UpgradeBelt;
-			productReference = A36BE821244212A40025F302 /* Upgrade Belt.app */;
+			productReference = A36BE821244212A40025F302 /* Upgrade Taekwondo Belt.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A36BE83B244212A60025F302 /* UpgradeBeltTests */ = {
+		A36BE83B244212A60025F302 /* UpgradeTaekwondoBeltTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A36BE853244212A60025F302 /* Build configuration list for PBXNativeTarget "UpgradeBeltTests" */;
+			buildConfigurationList = A36BE853244212A60025F302 /* Build configuration list for PBXNativeTarget "UpgradeTaekwondoBeltTests" */;
 			buildPhases = (
 				A36BE838244212A60025F302 /* Sources */,
 				A36BE839244212A60025F302 /* Frameworks */,
@@ -318,14 +318,14 @@
 			dependencies = (
 				A36BE83E244212A60025F302 /* PBXTargetDependency */,
 			);
-			name = UpgradeBeltTests;
+			name = UpgradeTaekwondoBeltTests;
 			productName = UpgradeBeltTests;
-			productReference = A36BE83C244212A60025F302 /* UpgradeBeltTests.xctest */;
+			productReference = A36BE83C244212A60025F302 /* UpgradeTaekwondoBeltTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A36BE846244212A60025F302 /* UpgradeBeltUITests */ = {
+		A36BE846244212A60025F302 /* UpgradeTaekwondoBeltUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A36BE856244212A60025F302 /* Build configuration list for PBXNativeTarget "UpgradeBeltUITests" */;
+			buildConfigurationList = A36BE856244212A60025F302 /* Build configuration list for PBXNativeTarget "UpgradeTaekwondoBeltUITests" */;
 			buildPhases = (
 				A36BE843244212A60025F302 /* Sources */,
 				A36BE844244212A60025F302 /* Frameworks */,
@@ -336,9 +336,9 @@
 			dependencies = (
 				A36BE849244212A60025F302 /* PBXTargetDependency */,
 			);
-			name = UpgradeBeltUITests;
+			name = UpgradeTaekwondoBeltUITests;
 			productName = UpgradeBeltUITests;
-			productReference = A36BE847244212A60025F302 /* UpgradeBeltUITests.xctest */;
+			productReference = A36BE847244212A60025F302 /* UpgradeTaekwondoBeltUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -364,7 +364,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A36BE81C244212A40025F302 /* Build configuration list for PBXProject "UpgradeBelt" */;
+			buildConfigurationList = A36BE81C244212A40025F302 /* Build configuration list for PBXProject "UpgradeTaekwondoBelt" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -377,9 +377,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A36BE820244212A40025F302 /* UpgradeBelt */,
-				A36BE83B244212A60025F302 /* UpgradeBeltTests */,
-				A36BE846244212A60025F302 /* UpgradeBeltUITests */,
+				A36BE820244212A40025F302 /* UpgradeTaekwondoBelt */,
+				A36BE83B244212A60025F302 /* UpgradeTaekwondoBeltTests */,
+				A36BE846244212A60025F302 /* UpgradeTaekwondoBeltUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -472,12 +472,12 @@
 /* Begin PBXTargetDependency section */
 		A36BE83E244212A60025F302 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A36BE820244212A40025F302 /* UpgradeBelt */;
+			target = A36BE820244212A40025F302 /* UpgradeTaekwondoBelt */;
 			targetProxy = A36BE83D244212A60025F302 /* PBXContainerItemProxy */;
 		};
 		A36BE849244212A60025F302 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A36BE820244212A40025F302 /* UpgradeBelt */;
+			target = A36BE820244212A40025F302 /* UpgradeTaekwondoBelt */;
 			targetProxy = A36BE848244212A60025F302 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -621,16 +621,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.2;
+				CURRENT_PROJECT_VERSION = 1.31;
 				DEVELOPMENT_TEAM = 45QUN6V6WL;
 				INFOPLIST_FILE = UpgradeBelt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.thegirlinafloraldress.upgradebelt;
-				PRODUCT_NAME = "Upgrade Belt";
+				PRODUCT_NAME = "Upgrade Taekwondo Belt";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -641,16 +641,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1.2;
+				CURRENT_PROJECT_VERSION = 1.31;
 				DEVELOPMENT_TEAM = 45QUN6V6WL;
 				INFOPLIST_FILE = UpgradeBelt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1;
+				MARKETING_VERSION = 1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.thegirlinafloraldress.upgradebelt;
-				PRODUCT_NAME = "Upgrade Belt";
+				PRODUCT_NAME = "Upgrade Taekwondo Belt";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -673,7 +673,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UpgradeBelt.app/UpgradeBelt";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UpgradeTaekwondoBelt.app/UpgradeTaekwondoBelt";
 			};
 			name = Debug;
 		};
@@ -694,7 +694,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UpgradeBelt.app/UpgradeBelt";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UpgradeTaekwondoBelt.app/UpgradeTaekwondoBelt";
 			};
 			name = Release;
 		};
@@ -739,7 +739,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A36BE81C244212A40025F302 /* Build configuration list for PBXProject "UpgradeBelt" */ = {
+		A36BE81C244212A40025F302 /* Build configuration list for PBXProject "UpgradeTaekwondoBelt" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A36BE84E244212A60025F302 /* Debug */,
@@ -748,7 +748,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A36BE850244212A60025F302 /* Build configuration list for PBXNativeTarget "UpgradeBelt" */ = {
+		A36BE850244212A60025F302 /* Build configuration list for PBXNativeTarget "UpgradeTaekwondoBelt" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A36BE851244212A60025F302 /* Debug */,
@@ -757,7 +757,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A36BE853244212A60025F302 /* Build configuration list for PBXNativeTarget "UpgradeBeltTests" */ = {
+		A36BE853244212A60025F302 /* Build configuration list for PBXNativeTarget "UpgradeTaekwondoBeltTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A36BE854244212A60025F302 /* Debug */,
@@ -766,7 +766,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A36BE856244212A60025F302 /* Build configuration list for PBXNativeTarget "UpgradeBeltUITests" */ = {
+		A36BE856244212A60025F302 /* Build configuration list for PBXNativeTarget "UpgradeTaekwondoBeltUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A36BE857244212A60025F302 /* Debug */,
