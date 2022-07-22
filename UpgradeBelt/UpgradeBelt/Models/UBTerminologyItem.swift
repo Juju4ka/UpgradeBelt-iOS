@@ -8,10 +8,11 @@
 
 import Foundation
 
+// An object that describes terminology item in grading material
 struct UBTerminologyItem: Codable {
-    let identifier: String
-    let english: String?
-    let korean: String?
+    let identifier: String // An identifier of the terminlogy
+    let english: String? // An English spelling of terminology item
+    let korean: String? // An Korean spelling of terminology item
     
     enum CodingKeys: String, CodingKey {
         case identifier = "id"

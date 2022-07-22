@@ -8,13 +8,14 @@
 
 import Foundation
 
+// An object that describes a grading item of grading material
 struct UBGradingItem : Codable {
-    let identifier: String
-    let grade: String?
-    let requirements: [UBGradingRequirement]?
-    let gradingPatterns: [UBGradingPattern]?
-    let terminology: [UBTerminologyItem]?
-    let iconName: String
+    let identifier: String // An identifier of a grading item
+    let grade: String? // The name of the grade
+    let requirements: [UBGradingRequirement]? // A list of requirements to preprare for grading
+    let gradingPatterns: [UBGradingPattern]? // A list of patterns to learn for grading
+    let terminology: [UBTerminologyItem]? // A list of terminology to know for grading
+    let iconName: String // The name of the icon representing the grade
     
     enum CodingKeys: String, CodingKey {
         case identifier = "id"

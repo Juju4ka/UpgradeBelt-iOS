@@ -8,11 +8,12 @@
 
 import Foundation
 
+// An object that describes a requirement in a grading material
 struct UBGradingRequirement : Codable {
-    let identifier: String
-    let name: String?
-    let patternId: String?
-    let description: String?
+    let identifier: String // An identifier of a requirement
+    let name: String? // The name of the requirement
+    let patternId: String? // An identifier of a pattern associated with a requirement
+    let description: String? // A description of the requirement
     
     enum CodingKeys: String, CodingKey {
         case identifier = "id"

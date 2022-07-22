@@ -8,12 +8,13 @@
 
 import Foundation
 
+// An object that describes a pattern in taekwondo grading material
 struct UBGradingPattern : Codable {
-    let identifier: String
-    let name: String?
-    let movements: Int?
-    let meaning: String?
-    let videoLink: String?
+    let identifier: String // An identifier of a pattern
+    let name: String? // The name of a pattern
+    let movements: Int? // Number of the movements in the pattern
+    let meaning: String? // The meaning of the pattern
+    let videoLink: String? //A link to the video of the pattern
     
     enum CodingKeys: String, CodingKey {
         case identifier = "id"

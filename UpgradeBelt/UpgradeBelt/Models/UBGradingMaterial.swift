@@ -8,10 +8,11 @@
 
 import Foundation
 
+// An object that describes grading material
 struct UBGradingMaterial : Codable {
-    let identifier: String
-    let colorBelts: [UBGradingItem]?
-    let blackBelts: [UBGradingItem]?
+    let identifier: String // An identifier of a grading material
+    let colorBelts: [UBGradingItem]? // A list of color belts syllabus
+    let blackBelts: [UBGradingItem]? // A list of black belts syllabus
     
     enum CodingKeys: String, CodingKey {
         case identifier = "id"
