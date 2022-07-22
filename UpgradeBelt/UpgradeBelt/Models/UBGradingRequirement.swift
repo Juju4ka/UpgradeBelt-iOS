@@ -8,9 +8,9 @@
 
 import Foundation
 
-// An object that describes a requirement in a grading material
+// An object that describes what students needs to learn for a particular grade
 struct UBGradingRequirement : Codable {
-    let identifier: String // An identifier of a requirement
+    let identifier: String // An identifier
     let name: String? // The name of the requirement
     let patternId: String? // An identifier of a pattern associated with a requirement
     let description: String? // A description of the requirement

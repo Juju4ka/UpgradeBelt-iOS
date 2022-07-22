@@ -8,9 +8,9 @@
 
 import Foundation
 
-// An object that describes a pattern in taekwondo grading material
+// An object that describes a Taekwondo pattern - a series of standardized movements that Taekwondo students use in order to practice “offensive” and “defensive” techniques without a partner
 struct UBGradingPattern : Codable {
-    let identifier: String // An identifier of a pattern
+    let identifier: String // An identifier
     let name: String? // The name of a pattern
     let movements: Int? // Number of the movements in the pattern
     let meaning: String? // The meaning of the pattern

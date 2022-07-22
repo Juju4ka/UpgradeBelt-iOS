@@ -8,9 +8,9 @@
 
 import Foundation
 
-// An object that describes grading material
+// An object that describes a syllabus for Taekwondo gradings
 struct UBGradingMaterial : Codable {
-    let identifier: String // An identifier of a grading material
+    let identifier: String // An identifier 
     let colorBelts: [UBGradingItem]? // A list of color belts syllabus
     let blackBelts: [UBGradingItem]? // A list of black belts syllabus
     
