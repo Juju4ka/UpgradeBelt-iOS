@@ -12,7 +12,7 @@ import Foundation
 struct UBTerminologyItem: Codable {
     let identifier: String // An identifier of the terminology item
     let english: String? // An English word for an object (for a punch, kick, action, etc.)
-    let korean: String? // An Korean word for an object
+    let korean: String? // A Korean word for an object
     
     enum CodingKeys: String, CodingKey {
         case identifier = "id"
